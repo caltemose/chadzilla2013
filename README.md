@@ -1,4 +1,4 @@
-chadzilla2013
-=============
+middleman-slim-coffee-basic
+===========================
 
-What it says. Simplified site repo.
+Middleman basic template with Slim and CoffeeScript support.
