@@ -17,11 +17,48 @@ $codeBgColor: #222; //darken($bgColor, 5%);
 //$footerBgColor: #
 
 body {
+	position: relative;
 	font-family: $copyFont;
-	margin: 1em;
+	margin: 0;
 	background: $bgColor;
 	color: $typeColor;
 	line-height: 120%;
+}
+
+body > header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	padding: 0.4em 0.8em;
+
+	& > nav, & > figure {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	& > nav {
+
+		width: 80%;
+		text-align: right;
+
+		& > ul {
+
+			list-style: none;
+
+			& > li {
+				display: inline;
+				margin-left: 1em;
+			}
+
+		}
+
+	}
+
+}
+
+body > main {
+	margin: 6em 1em 2em;
 }
 
 h1 {
