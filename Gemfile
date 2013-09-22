@@ -3,6 +3,7 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.4"
+gem "middleman-blog"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-deploy", "~> 0.0.11"
 gem "redcarpet" # markdown

@@ -13,6 +13,10 @@ set :layout, "default"
 #set :build_dir, "build"
 page '/styles.html', :layout => false
 
+activate :blog do |blog|
+  blog.prefix = "articles"
+end
+
 # markdown options
 set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true
 
