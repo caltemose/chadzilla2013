@@ -14,18 +14,21 @@ html
   body
 
     header
+
       h1 
         a(href="/") 
           span chadzilla.com
+      
       nav
-        label(id='menu-label') menu
-        input(type='checkbox' id='menu-trigger')
-
         ul
           li
             a Articles
           li
             a Projects
+      
+      a#burger(href="#")
+        span menu
+
 
     main 
 
@@ -75,6 +78,8 @@ html
       p Wasn't that nice?
 
 
+    script(src='/assets/js/vendor/zepto.js')
+    script(src='/assets/js/styles.js')
 
 
 

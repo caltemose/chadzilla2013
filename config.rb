@@ -1,4 +1,3 @@
-# slim for templating and keep the output pretty
 require 'slim'
 set :slim, :pretty => true
 
@@ -12,9 +11,13 @@ set :layouts_dir, "layouts"
 set :layout, "default"
 #set :build_dir, "build"
 page '/styles.html', :layout => false
+page "/feed.xml", :layout => false
 
 activate :blog do |blog|
   blog.prefix = "articles"
+  blog.layout = "default"
+  blog.tag_template = "templates/tag.html"
+  blog.calendar_template = "templates/calendar.html"
 end
 
 # markdown options
