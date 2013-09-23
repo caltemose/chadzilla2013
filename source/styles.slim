@@ -13,7 +13,9 @@ html
 
   body
 
-    header
+    input#burger(type='checkbox' name='burger')
+
+    header#header
 
       h1 
         a(href="/") 
@@ -26,8 +28,12 @@ html
           li
             a Projects
       
-      a#burger(href="#")
+      //a#burger(href="#")
+      //  span menu
+
+      label#burger-trigger(for='burger')
         span menu
+
 
 
     main 
@@ -78,8 +84,8 @@ html
       p Wasn't that nice?
 
 
-    script(src='/assets/js/vendor/zepto.js')
-    script(src='/assets/js/styles.js')
+    //script(src='/assets/js/vendor/zepto.js')
+    //script(src='/assets/js/styles.js')
 
 
 

@@ -16,7 +16,7 @@ $codeContentColor: #E8DD83;
 $codeBgColor: #222; //darken($bgColor, 5%);
 //$footerBgColor: #
 
-$menuOffset: -4.5em;
+$menuOffset: -7.3em;
 $menuSpeed: 0.2s;
 
 body {
@@ -38,25 +38,43 @@ body > header {
   -moz-box-shadow:    0px 2px 2px 0px #ccc;
   -webkit-box-shadow: 0px 2px 2px 0px #ccc;
   box-shadow:         0px 2px 2px 0px #ccc;
+}
 
+#header {
   -webkit-transform: translate3D(0,0,0);
   -moz-transform: translate3D(0,0,0);
   -webkit-transition: -webkit-transform $menuSpeed ease-in-out;
   -moz-transition: -moz-transform $menuSpeed ease-in-out;
 }
 
-.menu-open > header {
-  -webkit-transform: translate3D(0,-1*$menuOffset,0);
-  -moz-transform: translate3D(0,-1*$menuOffset,0);
+#burger-trigger {
+  position: absolute;
+  top: 0.7em;
+  right: 1em;
+  width: 32px;
+  height: 20px;
+  background: url(../img/menu.png) no-repeat;
+  
+  & > span { display: none; }
 }
+
+#burger {
+  display: none;
+
+  &:checked ~ #header {
+    -webkit-transform: translate3D(0,-1*$menuOffset,0);
+    -moz-transform: translate3D(0,-1*$menuOffset,0);
+  }
+}
+
 
 body > header > nav {
   position: absolute;
   top: $menuOffset;
   left: 0;
   width: 100%;
-  padding-top: 0.3em;
-  background: rgba(0,0,0, 0.7);
+  padding: 0.6em 0 0.3em;
+  background: #333;
 
   & > ul {
     list-style: none;
@@ -73,8 +91,8 @@ body > header > nav {
 
   a {
     display: block;
-    margin-bottom: 0.1em;
-    padding: 0.4em 1em;
+    margin-bottom: 0.4em;
+    padding: 0.8em 1em;
     color: white;
     background: rgba(255,255,255, 0.1);
   }
@@ -98,17 +116,6 @@ body > header > h1 {
 
     & > span { display: none; }
   }
-}
-
-#burger {
-  position: absolute;
-  top: 0.7em;
-  right: 1em;
-  width: 32px;
-  height: 20px;
-  background: url(../img/menu.png) no-repeat;
-  
-  & > span { display: none; }
 }
 
 
