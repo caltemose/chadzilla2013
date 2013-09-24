@@ -1,1 +1,1 @@
-Zepto(function(e){e("#burger").click(function(){console.log("click");var n=e("body");n.hasClass("menu-open")?n.removeClass("menu-open"):n.addClass("menu-open")})});
+Zepto(function(c){c("label").click(function(){})});

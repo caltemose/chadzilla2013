@@ -12,21 +12,23 @@
     <link href="../assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <h1>
-        <a href="/"><span>chadzilla.com</span></a>
-      </h1>
-      <nav>
+    <header id="masthead">
+      <input id="burger" name="burger" type="checkbox" />
+      <nav id="nav">
         <ul>
           <li>
-            <a>Articles</a>
+            <a href="/articles">Articles</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="/projects">Projects</a>
           </li>
         </ul>
       </nav>
-      <a href="#" id="burger"><span>menu</span></a>
+      <header id="header">
+        <h1>
+          <a href="/"><span>chadzilla.com</span></a><label for="burger" id="burger-trigger"><span>menu</span></label>
+        </h1>
+      </header>
     </header>
     <main>
       <h1>

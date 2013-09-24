@@ -1,0 +1,81 @@
+/*
+
+Default Typography Specs
+
+*/
+
+body > main {
+  margin: 5em 1em 2em;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: $titleFont;
+  font-weight: 700;
+  line-height: 105%;
+}
+
+h2 {
+  margin-top: 1.3em;
+}
+
+h3 {
+  margin: 2em 0 0.5em;
+}
+
+h2 + h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0.3em 0 0.5em;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+
+  &:hover {
+    color: $hoverColor;
+  }
+}
+
+ol, ul {
+  width: 94%;
+  margin-left: 0;
+  padding-left: 12%;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+code {
+  padding: 0.1em;
+  background: lighten($bgColor, 4%); //$codeBgColor;
+  color: #0F520D; //$codeFontColor;
+  font-family: 'Monaco', 'Lucida Console', 'Andale Mono', FreeMono, 'Osaka Monospaced', Courier, monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  background: $codeBgColor;
+  display: block;
+  padding: 0.4em;
+  overflow: hidden;
+  font-size: 0.8em;
+}
+
+pre > code {
+  color: $codeFontColor;
+  background: none;
+}
+
+pre .content {
+  color: $codeContentColor;
+}
+
+body > footer {
+  margin-top: 3em;
+  font-size: $footerFontSize;
+}

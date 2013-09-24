@@ -13,29 +13,28 @@ html
 
   body
 
-    input#burger(type='checkbox' name='burger')
+    header#masthead
 
-    header#header
+      input#burger(type='checkbox' name='burger')
 
-      h1 
-        a(href="/") 
-          span chadzilla.com
-      
-      nav
+      nav#nav
         ul
+          //li
+          // a(href="/") Home
           li
-            a Articles
+            a(href="/articles") Articles
           li
-            a Projects
+            a(href="/projects") Projects
+
+      header#header
+
+        h1 
+          a(href="/") 
+            span chadzilla.com
+
+          label#burger-trigger(for='burger')
+            span menu
       
-      //a#burger(href="#")
-      //  span menu
-
-      label#burger-trigger(for='burger')
-        span menu
-
-
-
     main 
 
       h1 Page Title is This H1 Thing Here 
@@ -84,9 +83,8 @@ html
       p Wasn't that nice?
 
 
-    //script(src='/assets/js/vendor/zepto.js')
-    //script(src='/assets/js/styles.js')
-
+    script(src='/assets/js/vendor/zepto.js')
+    script(src='/assets/js/styles.js')
 
 
 

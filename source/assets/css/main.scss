@@ -1,8 +1,5 @@
-@import "reset";
-
-/* reset above, styles below */
-
-$maxWidthDesktop: 44em;
+/* Standard variables */
+$maxWidthDesktop: 47em;
 $maxWidthDesktopRem: 44rem;
 $titleFont: Helvetica, Arial, sans-serif;
 $copyFont: Helvetica, Arial, sans-serif;
@@ -13,11 +10,15 @@ $hoverColor: darken($linkColor, 20%);
 $footerFontSize: 0.7em;
 $codeFontColor: #B8FFBA;
 $codeContentColor: #E8DD83;
-$codeBgColor: #222; //darken($bgColor, 5%);
-//$footerBgColor: #
-
-$menuOffset: -7.3em;
+$codeBgColor: #222;
+/* Menu/Animation variables */
+$menuHeight: 2.4em;
+$menuOffset: -10.4em;
 $menuSpeed: 0.2s;
+
+@import "reset";
+@import "mixins";
+@import "type";
 
 body {
   position: relative;
@@ -25,32 +26,48 @@ body {
   margin: 0;
   background: $bgColor;
   color: $typeColor;
-  line-height: 120%;
+  line-height: 1.3em;
 }
 
-body > header {
+#masthead {
   position: fixed;
-  top: 0em;
+  top: 0;
   width: 100%;
-  min-height: 2.7em;
-  background: white;
-  padding: 0.4em 0.8em;
-  -moz-box-shadow:    0px 2px 2px 0px #ccc;
-  -webkit-box-shadow: 0px 2px 2px 0px #ccc;
-  box-shadow:         0px 2px 2px 0px #ccc;
 }
 
 #header {
-  -webkit-transform: translate3D(0,0,0);
-  -moz-transform: translate3D(0,0,0);
-  -webkit-transition: -webkit-transform $menuSpeed ease-in-out;
-  -moz-transition: -moz-transform $menuSpeed ease-in-out;
+  position: relative;
+  width: 100%;
+  background: #333;
+
+  @include box-shadow(0, 1px, 1px, 0, rgba(0,0,0,0.2));
+  @include transition(all, $menuSpeed, ease-in-out);
+
+  & > h1 {
+    width: 100%;
+    height: $menuHeight;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    background: white;
+
+    & > a {
+      display: inline-block;
+      width: 115px;
+      height: 32px;
+      margin: 0.5em 1em 0 0.8em;
+      background: url(../img/chadzilla-logo.png) no-repeat;
+      //background: url(../img/sig.png) no-repeat;
+      background-size: contain;
+
+      & > span { display: none; }
+    }
+  }
 }
 
 #burger-trigger {
-  position: absolute;
-  top: 0.7em;
-  right: 1em;
+  float: right;
+  margin: 0.7em 1em 0;
   width: 32px;
   height: 20px;
   background: url(../img/menu.png) no-repeat;
@@ -61,25 +78,28 @@ body > header {
 #burger {
   display: none;
 
+  &:checked ~ #nav {
+    max-height: 25em;
+  }
+
   &:checked ~ #header {
-    -webkit-transform: translate3D(0,-1*$menuOffset,0);
-    -moz-transform: translate3D(0,-1*$menuOffset,0);
+    @include box-shadow(0, 2px, 22px, 0, rgba(0,0,0,0.7));
   }
 }
 
 
-body > header > nav {
-  position: absolute;
-  top: $menuOffset;
-  left: 0;
+#nav {
+  max-height: 0;
+  overflow: hidden;
   width: 100%;
-  padding: 0.6em 0 0.3em;
+  padding: 0; //0.6em 0 0.3em;
   background: #333;
+  @include transition(max-height, $menuSpeed, ease-out);
 
   & > ul {
     list-style: none;
     width: 100%;
-    margin: 0;
+    margin: 0 0 3em;
     padding: 0;
 
     & > li {
@@ -94,124 +114,20 @@ body > header > nav {
     margin-bottom: 0.4em;
     padding: 0.8em 1em;
     color: white;
-    background: rgba(255,255,255, 0.1);
+    background: #444;
+
+    &:hover, &:focus, &:active {
+      color: white;
+    }
+
   }
 
 }
 
-body > header > h1 {
-  position: absolute;
-  top: 0.15em;
-  left: 0.8em;    
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-
-  & > a {
-    display: block;
-    width: 115px;
-    height: 30px;
-    background: url(../img/chadzilla-logo.png) no-repeat;
-    background-size: contain;
-
-    & > span { display: none; }
-  }
-}
+  
 
 
 
-
-body > main {
-  margin: 5em 1em 2em;
-}
-
-h1 {
-  font-size: 1.3em;
-  font-family: $titleFont;
-  font-weight: 700;
-  line-height: 105%;
-
-  > small {
-    display: block;
-    margin-top: 0.3em;
-    font-size: 0.7em;
-    font-family: $copyFont;
-    font-weight: normal;
-    color: transparentize($typeColor, 0.4);
-    line-height: 100%;
-  }
-
-  > a {
-    display: block;
-    margin: 0.3em 0 0;
-    font-size: 0.7em;
-  }
-}
-
-h2 {
-  margin-top: 1.5em;
-}
-
-h3 {
-  margin: 2em 0 0.5em;
-}
-
-h2 + h3 {
-  margin-top: 0;
-}
-
-p {
-  margin: 0.3em 0 0.5em;
-}
-
-a {
-  color: $linkColor;
-  text-decoration: none;
-
-  &:hover {
-    color: $hoverColor;
-  }
-}
-
-ol, ul {
-  width: 94%;
-  margin-left: 0;
-  padding-left: 12%;
-}
-
-li {
-  margin-bottom: 0.3em;
-}
-
-code {
-  padding: 0.1em;
-  background: lighten($bgColor, 4%); //$codeBgColor;
-  color: #0F520D; //$codeFontColor;
-  font-family: 'Monaco', 'Lucida Console', 'Andale Mono', FreeMono, 'Osaka Monospaced', Courier, monospace;
-  font-size: 0.9em;
-}
-
-pre {
-  background: $codeBgColor;
-  display: block;
-  padding: 0.4em;
-  overflow: hidden;
-  font-size: 0.8em;
-}
-
-pre > code {
-  color: $codeFontColor;
-  background: none;
-}
-
-pre .content {
-  color: $codeContentColor;
-}
-
-body > footer {
-  margin-top: 3em;
-  font-size: $footerFontSize;
-}
 
 /*
 --------------------------------------------------------
@@ -220,7 +136,7 @@ media query for middle/portrait size range
 */
 @media screen and (min-width: 30em) {
 
-  main { font-size: 19px; }
+  main { font-size: 19px; line-height: 1.3em; }
 
 }
 
@@ -231,6 +147,47 @@ media query for larger devices
 
 */
 @media screen and (min-width: $maxWidthDesktop) {
+
+  #header > header > h1 > a {
+    margin-left: 1em;
+  }
+
+  #burger-trigger {
+    display: none;
+  }
+
+  #nav {
+    max-height: none;
+    background: none;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 2;
+
+    & > ul {
+      text-align: right;
+
+      & > li {
+        width: auto;
+        display: inline-block;
+        padding-left: 2em;
+      }
+
+    }
+
+    a {
+      color: $linkColor;
+      margin: 0;
+      padding: 0;
+      background: none;
+      text-transform: lowercase;
+
+      &:hover, &:active, &:focus {
+        color: $linkColor;
+      }
+    }
+
+  }
   
   main { font-size: 21px; }
 
@@ -240,7 +197,7 @@ media query for larger devices
     margin-left: auto;
     margin-right: auto;
   }
-
+/*
   h1 {
     font-size: 2em;
     small {
@@ -251,5 +208,7 @@ media query for larger devices
   ol, ul {
     padding-left: 8%;
   }
-
+*/
 }
+
+
