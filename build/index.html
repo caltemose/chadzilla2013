@@ -9,14 +9,43 @@
     <title>
       Site Title: Welcome
     </title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
     <link href="assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <section>
-      <h1 id="welcome">Welcome</h1>
+    <header id="masthead">
+      <input id="burger" name="burger" type="checkbox" />
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="/articles">Articles</a>
+          </li>
+          <li>
+            <a href="/work">Work</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <header id="header">
+        <h1>
+          <a href="/"><span>chadzilla.com</span></a><label for="burger" id="burger-trigger"><span>menu</span></label>
+        </h1>
+      </header>
+    </header>
+    <main><p>I use technology to make fun and useful stuff. If you're interested in my career, see the <a href="/work">work page</a>. Here is some featured content:</p>
       
-      <p>Home page content.</p>
+      <ul>
+        <li><a href="/articles/2013/09/24/site-inspiration/">Site Inspiration</a></li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
       
-    </section>
+      <p><a href="/styles">styles test</a></p>
+      </main>
+    <script>
+      document.getElementById("burger-trigger").onclick = function () {};
+    </script>
   </body>
 </html>

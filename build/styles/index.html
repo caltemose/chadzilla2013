@@ -9,6 +9,7 @@
     <title>
       Style Test
     </title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
     <link href="../assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -20,7 +21,10 @@
             <a href="/articles">Articles</a>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <a href="/work">Work</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -95,6 +99,8 @@ makeFrownyFace();</code></pre>
       </p>
     </main>
     <script src="/assets/js/vendor/zepto.js"></script>
-    <script src="/assets/js/styles.js"></script>
+    <script>
+      Zepto(function($){ $('label').click(function() {});})
+    </script>
   </body>
 </html>

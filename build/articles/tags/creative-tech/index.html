@@ -7,20 +7,45 @@
     <title>
       Site Title
     </title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
     <link href="../../../assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <section>
-      <h1>Articles tagged 'creative-tech'</h1>
+    <header id="masthead">
+      <input id="burger" name="burger" type="checkbox" />
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="/articles">Articles</a>
+          </li>
+          <li>
+            <a href="/work">Work</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <header id="header">
+        <h1>
+          <a href="/"><span>chadzilla.com</span></a><label for="burger" id="burger-trigger"><span>menu</span></label>
+        </h1>
+      </header>
+    </header>
+    <main><h1>Articles tagged 'creative-tech'</h1>
       
       
       <ul>
+        
+          <li><a href="/articles/2013/09/24/site-inspiration/">Inspiration and Research for This Site</a> <span>Sep 24</span></li>
         
           <li><a href="/articles/2013/03/24/govathon/">Thoughts on Atlanta's Govathon 2013</a> <span>Mar 24</span></li>
         
       </ul>
       
-      
-    </section>
+      </main>
+    <script>
+      document.getElementById("burger-trigger").onclick = function () {};
+    </script>
   </body>
 </html>

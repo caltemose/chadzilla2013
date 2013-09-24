@@ -7,11 +7,32 @@
     <title>
       Site Title: Thoughts on Atlanta's Govathon 2013
     </title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
     <link href="../../../../../assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <section>
-      <h1 id="thoughts-on-atlantas-govathon-2013">Thoughts on Atlanta's Govathon 2013</h1>
+    <header id="masthead">
+      <input id="burger" name="burger" type="checkbox" />
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="/articles">Articles</a>
+          </li>
+          <li>
+            <a href="/work">Work</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <header id="header">
+        <h1>
+          <a href="/"><span>chadzilla.com</span></a><label for="burger" id="burger-trigger"><span>menu</span></label>
+        </h1>
+      </header>
+    </header>
+    <main><h1 id="thoughts-on-atlantas-govathon-2013">Thoughts on Atlanta's Govathon 2013</h1>
       
       <p>I participated in Atlanta's Govathon 2013 a few months ago. It was fun at times, frustrating at times and overall I thought a pretty good experience for the city's first civic-minded hackaton. City workers and a few citizens pitched a variety of ideas at the beginning of the event. Many were interesting. </p>
       
@@ -42,7 +63,9 @@
         <li>Shift code focus toward well-defined (and communicated) ideas and executable plans.</li>
       </ol>
       
-      
-    </section>
+      </main>
+    <script>
+      document.getElementById("burger-trigger").onclick = function () {};
+    </script>
   </body>
 </html>

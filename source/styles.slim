@@ -90,7 +90,11 @@ html
 
 
     script(src='/assets/js/vendor/zepto.js')
-    script(src='/assets/js/styles.js')
+    script
+      |Zepto(function($){
+      |  $('label').click(function() {});
+      |})
+
 
 
 
