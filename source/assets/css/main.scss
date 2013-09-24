@@ -40,7 +40,7 @@ body {
   width: 100%;
   background: #333;
 
-  @include box-shadow(0, 1px, 1px, 0, rgba(0,0,0,0.2));
+  @include box-shadow(0, 2px, 2px, 0, rgba(0,0,0,0.2));
   @include transition(all, $menuSpeed, ease-in-out);
 
   & > h1 {
@@ -49,14 +49,14 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.3em;
-    background: white;
+    background: black;
 
     & > a {
       display: inline-block;
       width: 115px;
       height: 32px;
       margin: 0.5em 1em 0 0.8em;
-      background: url(../img/chadzilla-logo.png) no-repeat;
+      background: url(../img/chadzilla-logo-alt.png) no-repeat;
       //background: url(../img/sig.png) no-repeat;
       background-size: contain;
 
@@ -70,7 +70,7 @@ body {
   margin: 0.7em 1em 0;
   width: 32px;
   height: 20px;
-  background: url(../img/menu.png) no-repeat;
+  background: url(../img/menu-alt.png) no-repeat;
   
   & > span { display: none; }
 }
@@ -176,14 +176,14 @@ media query for larger devices
     }
 
     a {
-      color: $linkColor;
+      color: white;
       margin: 0;
       padding: 0;
       background: none;
       text-transform: lowercase;
 
       &:hover, &:active, &:focus {
-        color: $linkColor;
+        color: white;
       }
     }
 
