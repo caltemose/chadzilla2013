@@ -1,8 +1,8 @@
 /* Standard variables */
 $maxWidthDesktop: 47em;
 $maxWidthDesktopRem: 44rem;
-$titleFont: Helvetica, Arial, sans-serif;
-$copyFont: Helvetica, Arial, sans-serif;
+$titleFont: 'PT Sans', Helvetica, Arial, sans-serif;
+$copyFont: 'PT Sans', Helvetica, Arial, sans-serif;
 $bgColor: #e7e7e7;
 $typeColor: #000;
 $linkColor: #2577A1;
@@ -72,6 +72,8 @@ body {
   height: 20px;
   background: url(../img/menu-alt.png) no-repeat;
   
+  &:hover { cursor: pointer; }
+
   & > span { display: none; }
 }
 
@@ -157,6 +159,7 @@ media query for larger devices
   }
 
   #nav {
+    max-width: 60%;
     max-height: none;
     background: none;
     position: absolute;
