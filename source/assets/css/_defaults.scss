@@ -1,9 +1,3 @@
-/*
-
-Default Tag Specs
-
-*/
-
 body {
   position: relative;
   font-family: $copyFont;
@@ -13,10 +7,44 @@ body {
   line-height: 1.3em;
 }
 
+// primary site <main> tag responsive styling
 body > main {
   margin: 5em 1em 2em;
 }
+@media screen and (min-width: $medWidth) {
+  body > main {
+    font-size: 19px; 
+    line-height: 1.3em;
+  }
+}
+@media screen and (min-width: $desktopWidth) {
+  body > main { 
+    width: 100%;
+    max-width: $desktopWidthRem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px; 
+  }
+}
+// primary site <footer> tag responsive styling
+body > footer {
+  margin-top: 3em;
+  font-size: $footerFontSize;
+}
+@media screen and (min-width: $desktopWidth) {
+  body > footer {
+    width: 100%;
+    max-width: $maxWidthDesktopRem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
+/*
+
+Default Tag Specs
+
+*/
 h1 {
   font-size: 1.8em;
   font-family: $titleFont;
@@ -35,6 +63,8 @@ h3 {
 h2 + h3 {
   margin-top: 0;
 }
+
+// @TODO h4, h5
 
 p {
   margin: 0.3em 0 0.5em;
@@ -58,6 +88,8 @@ ol, ul {
 li {
   margin-bottom: 0.3em;
 }
+
+// @TODO implement proper code styling
 
 code {
   padding: 0.1em;
@@ -84,7 +116,3 @@ pre .content {
   color: $codeContentColor;
 }
 
-body > footer {
-  margin-top: 3em;
-  font-size: $footerFontSize;
-}

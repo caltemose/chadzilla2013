@@ -1,13 +1,20 @@
-/* Standard variables */
+/* reponsive size variables */
 $maxWidthDesktop: 47em;
 $maxWidthDesktopRem: 44rem;
+$medWidth: 30em;
+$desktopWidth: 47em;
+$desktopWidthRem: 44rem;
+
+/* main bg */
+$bgColor: #e7e7e7;
+/* fonts */
 $titleFont: 'PT Sans', Helvetica, Arial, sans-serif;
 $copyFont: 'PT Sans', Helvetica, Arial, sans-serif;
-$bgColor: #e7e7e7;
+$footerFontSize: 0.7em;
+/* text colors */
 $typeColor: #000;
 $linkColor: #2577A1;
 $hoverColor: darken($linkColor, 20%);
-$footerFontSize: 0.7em;
 $codeFontColor: #B8FFBA;
 $codeContentColor: #E8DD83;
 $codeBgColor: #222;
@@ -16,8 +23,8 @@ $menuHeight: 2.4em;
 $menuOffset: -10.4em;
 $menuSpeed: 0.2s;
 
-@import "reset";
 @import "mixins";
+@import "reset";
 @import "defaults";
 @import "masthead";
 @import "queries";

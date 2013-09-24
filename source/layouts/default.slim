@@ -28,12 +28,8 @@ html
 
       nav#nav
         ul
-          //li
-          // a(href="/") Home
           li
             a(href="/articles") Articles
-          //li
-          //  a(href="/projects") Projects
           li
             a(href="/work") Work
           li
@@ -49,9 +45,12 @@ html
           label#burger-trigger(for='burger')
             span menu
       
-    main 
+    main#main 
     
       == yield
 
+
+    / footer
+    /   a(href='#') back to top
 
     script document.getElementById("burger-trigger").onclick = function () {};
