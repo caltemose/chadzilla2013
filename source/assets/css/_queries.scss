@@ -1,0 +1,61 @@
+@media screen and (min-width: 30em) {
+
+  main { font-size: 19px; line-height: 1.3em; }
+
+}
+
+@media screen and (min-width: $maxWidthDesktop) {
+
+  #header > header > h1 > a {
+    margin-left: 1em;
+  }
+
+  #burger-trigger {
+    display: none;
+  }
+
+  #nav {
+    max-width: 60%;
+    max-height: none;
+    background: none;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 2;
+
+    & > ul {
+      text-align: right;
+
+      & > li {
+        width: auto;
+        display: inline-block;
+        padding-left: 2em;
+      }
+
+    }
+
+    a {
+      color: white;
+      margin: 0;
+      padding: 0;
+      background: none;
+      text-transform: lowercase;
+
+      &:hover, &:active, &:focus {
+        color: white;
+      }
+    }
+
+  }
+  
+  main { font-size: 21px; }
+
+  body > main, body > footer {
+    width: 100%;
+    max-width: $maxWidthDesktopRem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+

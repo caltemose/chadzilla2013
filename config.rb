@@ -11,7 +11,7 @@ set :layouts_dir, "layouts"
 set :layout, "default"
 #set :build_dir, "build"
 page '/styles.html', :layout => false
-page "/feed.xml", :layout => false
+page '/feed.xml', :layout => false
 
 activate :blog do |blog|
   blog.prefix = "articles"
@@ -19,6 +19,7 @@ activate :blog do |blog|
   blog.tag_template = "templates/tag.html"
   blog.calendar_template = "templates/calendar.html"
 end
+
 
 # markdown options
 set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true

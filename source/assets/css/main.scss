@@ -18,200 +18,24 @@ $menuSpeed: 0.2s;
 
 @import "reset";
 @import "mixins";
-@import "type";
+@import "defaults";
+@import "masthead";
+@import "queries";
 
-body {
-  position: relative;
-  font-family: $copyFont;
+.article-listing {
+  list-style: none;
   margin: 0;
-  background: $bgColor;
-  color: $typeColor;
-  line-height: 1.3em;
-}
+  padding: 0;
 
-#masthead {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-#header {
-  position: relative;
-  width: 100%;
-  background: #333;
-
-  @include box-shadow(0, 2px, 2px, 0, rgba(0,0,0,0.2));
-  @include transition(all, $menuSpeed, ease-in-out);
-
-  & > h1 {
-    width: 100%;
-    height: $menuHeight;
-    margin: 0;
+  & > li {
+    margin: 0 0 1em;
     padding: 0;
-    font-size: 1.3em;
-    background: black;
+    font-size: 0.8em;
 
-    & > a {
-      display: inline-block;
-      width: 115px;
-      height: 32px;
-      margin: 0.5em 1em 0 0.8em;
-      background: url(../img/chadzilla-logo-alt.png) no-repeat;
-      //background: url(../img/sig.png) no-repeat;
-      background-size: contain;
-
-      & > span { display: none; }
-    }
-  }
-}
-
-#burger-trigger {
-  float: right;
-  margin: 0.7em 1em 0;
-  width: 32px;
-  height: 20px;
-  background: url(../img/menu-alt.png) no-repeat;
-  
-  &:hover { cursor: pointer; }
-
-  & > span { display: none; }
-}
-
-#burger {
-  display: none;
-
-  &:checked ~ #nav {
-    max-height: 25em;
-  }
-
-  &:checked ~ #header {
-    @include box-shadow(0, 2px, 22px, 0, rgba(0,0,0,0.7));
-  }
-}
-
-
-#nav {
-  max-height: 0;
-  overflow: hidden;
-  width: 100%;
-  padding: 0; //0.6em 0 0.3em;
-  background: #333;
-  @include transition(max-height, $menuSpeed, ease-out);
-
-  & > ul {
-    list-style: none;
-    width: 100%;
-    margin: 0 0 3em;
-    padding: 0;
-
-    & > li {
+    & > h3 {
+      font-size: 1.5em;
       margin: 0;
       padding: 0;
     }
-
   }
-
-  a {
-    display: block;
-    margin-bottom: 0.4em;
-    padding: 0.8em 1em;
-    color: white;
-    background: #444;
-
-    &:hover, &:focus, &:active {
-      color: white;
-    }
-
-  }
-
 }
-
-  
-
-
-
-
-/*
---------------------------------------------------------
-media query for middle/portrait size range
-
-*/
-@media screen and (min-width: 30em) {
-
-  main { font-size: 19px; line-height: 1.3em; }
-
-}
-
-
-/*
---------------------------------------------------------
-media query for larger devices
-
-*/
-@media screen and (min-width: $maxWidthDesktop) {
-
-  #header > header > h1 > a {
-    margin-left: 1em;
-  }
-
-  #burger-trigger {
-    display: none;
-  }
-
-  #nav {
-    max-width: 60%;
-    max-height: none;
-    background: none;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    z-index: 2;
-
-    & > ul {
-      text-align: right;
-
-      & > li {
-        width: auto;
-        display: inline-block;
-        padding-left: 2em;
-      }
-
-    }
-
-    a {
-      color: white;
-      margin: 0;
-      padding: 0;
-      background: none;
-      text-transform: lowercase;
-
-      &:hover, &:active, &:focus {
-        color: white;
-      }
-    }
-
-  }
-  
-  main { font-size: 21px; }
-
-  body > main, body > footer {
-    width: 100%;
-    max-width: $maxWidthDesktopRem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-/*
-  h1 {
-    font-size: 2em;
-    small {
-      font-size: 0.6em;
-    }
-  }
-
-  ol, ul {
-    padding-left: 8%;
-  }
-*/
-}
-
-

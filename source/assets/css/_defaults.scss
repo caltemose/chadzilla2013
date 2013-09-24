@@ -1,8 +1,17 @@
 /*
 
-Default Typography Specs
+Default Tag Specs
 
 */
+
+body {
+  position: relative;
+  font-family: $copyFont;
+  margin: 0;
+  background: $bgColor;
+  color: $typeColor;
+  line-height: 1.3em;
+}
 
 body > main {
   margin: 5em 1em 2em;
