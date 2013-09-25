@@ -9,11 +9,11 @@
   }
 
   #nav {
-    max-width: 60%;
+    max-width: 75%;
     max-height: none;
     background: none;
     position: absolute;
-    top: 1em;
+    //top: 1em;
     right: 1em;
     z-index: 2;
 
@@ -23,25 +23,15 @@
       & > li {
         width: auto;
         display: inline-block;
-        padding-left: 2em;
+        //padding-left: 1em;
+
+        & > a {
+          background: none;
+        }
       }
 
     }
-
-    a {
-      color: white;
-      margin: 0;
-      padding: 0;
-      background: none;
-      text-transform: lowercase;
-
-      &:hover, &:active, &:focus {
-        color: white;
-      }
-    }
-
   }
-
 }
 
 

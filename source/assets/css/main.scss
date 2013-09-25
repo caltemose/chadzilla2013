@@ -52,15 +52,16 @@ social navigation icons
 
 */
 .social {
-  margin: 3em 0.8em 0.8em;
-  
-  & > a.icon {
+  margin: 0;
+  padding: 0.3em 0;
+
+  & > a {
     display: inline-block;
     width: 36px;
     height: 36px;
     margin: 0 0.4em;
     overflow: hidden;
-    text-indent: -10em;
+    text-indent: -9999px;
     background-image: url(../img/social-icons.png);
     background-repeat: none;
 
@@ -75,6 +76,72 @@ social navigation icons
     }
     &.vimeo {
       background-position: -120px 0;
+    }
+
+    & > span { display: none; }
+  }
+}
+@media screen and (min-width: $maxWidthDesktop) {
+  .social {
+    margin-left: 2em;
+  }
+}
+
+/*
+--------------------------------------------------------
+aside styling (article, project subnav)
+
+*/
+aside {
+  padding: 1em 0 2em;
+  background: #ddd;
+  font-size: 0.8em;
+
+  // columns: recent|archives|tags
+  & > ul > li {
+
+    & > h3 {
+      width: 100%;
+      margin: 0;
+      padding: 0.5em 1rem 0;
+      font-weight: normal;
+    }
+    & > ul {
+      margin-bottom: 1rem;
+
+      & > li {
+        margin-left: 1rem;
+      }
+    }
+  }
+  li {
+    margin: 0;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: $desktopWidth) {
+  aside > ul {
+    width: 100%;
+    max-width: $desktopWidthRem;
+    margin: 1em auto;
+
+    & > li {
+      & > h3 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
+      & > ul {
+        //margin-bottom: 1rem;
+
+        & > li {
+          margin-left: 0;
+        }
+      }
     }
   }
 }

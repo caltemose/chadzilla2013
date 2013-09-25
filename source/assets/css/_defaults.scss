@@ -2,14 +2,19 @@ body {
   position: relative;
   font-family: $copyFont;
   margin: 0;
-  background: $bgColor;
+  background: #bbb; //$bgColor;
   color: $typeColor;
   line-height: 1.3em;
 }
 
 // primary site <main> tag responsive styling
 body > main {
-  margin: 5em 1em 2em;
+  margin: 0;
+  background: $bgColor;
+  & > article {
+    margin: 0 1em;
+    padding: 5em 0;
+  }
 }
 @media screen and (min-width: $medWidth) {
   body > main {
@@ -19,32 +24,49 @@ body > main {
 }
 @media screen and (min-width: $desktopWidth) {
   body > main { 
-    width: 100%;
-    max-width: $desktopWidthRem;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 21px; 
+
+    & > article {
+      width: 100%;
+      max-width: $desktopWidthRem;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 // primary site <footer> tag responsive styling
 body > footer {
   width: 100%;
-  margin-top: 5em;
+  margin-top: 0.5em;
   padding: 0.4em 0 10em;
   background: #bbb;
 
   & > p {
     margin: 0.3em 1em;
-    color: #777;
+    color: #555;
     font-size: 0.9em;
   }
+
+  & > h6 {
+    margin: 1em;
+    font-size: 0.9em;
+    font-weight: normal;
+    & > mark {
+      display: block;
+      background: none;
+    }
+  }
+
 }
 @media screen and (min-width: $desktopWidth) {
   body > footer {
     width: 100%;
-    max-width: $maxWidthDesktopRem;
-    margin-left: auto;
-    margin-right: auto;
+    
+    & > p, & > h6 {
+      max-width: $maxWidthDesktopRem;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
@@ -88,9 +110,6 @@ a {
 }
 
 ol, ul {
-  width: 94%;
-  margin-left: 0;
-  padding-left: 12%;
 }
 
 li {
