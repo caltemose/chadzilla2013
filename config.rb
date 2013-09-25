@@ -15,7 +15,7 @@ page '/feed.xml', :layout => false
 
 activate :blog do |blog|
   blog.prefix = "articles"
-  blog.layout = "default"
+  blog.layout = "article"
   blog.tag_template = "templates/tag.html"
   blog.calendar_template = "templates/calendar.html"
 end

@@ -52,16 +52,13 @@ social navigation icons
 
 */
 .social {
-  width: 100%;
-  margin-top: 1em;
-  padding: 0;
-  text-align: center;
+  margin: 3em 0.8em 0.8em;
   
   & > a.icon {
     display: inline-block;
     width: 36px;
     height: 36px;
-    margin-right: 0.6em;
+    margin: 0 0.4em;
     overflow: hidden;
     text-indent: -10em;
     background-image: url(../img/social-icons.png);
