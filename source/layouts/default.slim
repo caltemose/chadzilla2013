@@ -31,9 +31,14 @@ html
           li
             a(href="/articles") Articles
           li
-            a(href="/work") Work
+            a(href="/projects") Projects
           li
-            a(href="/contact") Contact
+            nav.social
+              a(href="https://www.linkedin.com/pub/chad-altemose/1/426/856" class="icon linkedin") LinkedIn
+              a(href="http://twitter.com/caltemose" class="icon twitter") Twitter
+              a(href="http://flickr.com/caltemose" class="icon flickr") Flickr
+              a(href="https://vimeo.com/caltemose" class="icon vimeo") Vimeo
+
 
 
       header#header
@@ -50,7 +55,25 @@ html
       == yield
 
 
-    / footer
-    /   a(href='#') back to top
+    footer
+      section
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="/articles") Articles
+          li
+            a(href="/projects") Projects
+          li
+            nav.social
+              a(href="https://www.linkedin.com/pub/chad-altemose/1/426/856" class="icon linkedin") LinkedIn
+              a(href="http://twitter.com/caltemose" class="icon twitter") Twitter
+              a(href="http://flickr.com/caltemose" class="icon flickr") Flickr
+              a(href="https://vimeo.com/caltemose" class="icon vimeo") Vimeo
+
+        p 
+          |chadzilla.com - a place for my stuff 
+          br &copy; 2013 Chad L. Altemose
+
 
     script document.getElementById("burger-trigger").onclick = function () {};
