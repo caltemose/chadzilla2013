@@ -11,7 +11,7 @@ html
     - if data.page.keywords
       meta name="keywords" content="#{data.page.keywords}"
 
-    - pagetitle = 'Site Title'
+    - pagetitle = 'Chadzilla.com'
     - if data.page.title
       - pagetitle += ': ' + data.page.title
     title == pagetitle
@@ -30,8 +30,8 @@ html
         ul
           li
             a(href="/articles") Articles
-          li
-            a(href="/projects") Projects
+          /li
+          /  a(href="/projects") Projects
           li
             nav.social
               a(href="https://www.linkedin.com/pub/chad-altemose/1/426/856" class="linkedin") 
@@ -66,7 +66,7 @@ html
 
       h6 
         mark chadzilla.com - a place to put my stuff
-        |&copy; 2011-2013 Chad L. Altemose
+        |&copy; 2013 Chad L. Altemose
 
 
     script document.getElementById("burger-trigger").onclick = function () {};

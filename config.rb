@@ -11,7 +11,11 @@ set :layouts_dir, "layouts"
 set :layout, "default"
 #set :build_dir, "build"
 page '/styles.html', :layout => false
+page '/page.php', :layout => false
 page '/feed.xml', :layout => false
+page '/', :layout => 'indices'
+page '/articles', :layout => 'indices'
+#page '/articles/index.html', :layout => 'indices'
 
 activate :blog do |blog|
   blog.prefix = "articles"

@@ -9,31 +9,13 @@
       li 
         h3 Recent Articles
         ul
-          li 
-            a A Recent One is Here
-          li 
-            a Another Recent One is Down Here
-
+          - page_articles.each_with_index do |article, i|
+            li
+              = link_to article.title
       li 
         h3 Archives
         ul
-          li
-            a October 2013
-          li
-            a September 2013
-          li
-            a July 2013
-          li
-            a March 2013
-
-      li 
-        h3 Tags
-        ul
-          li
-            a creative
-          li
-            a design
-          li
-            a dev
-          li
-            a process
+          - page_articles.group_by {|a| a.date.year }.each do |year, articles| 
+            li 
+              = link_to year, blog_year_path(year)
+        
