@@ -15,6 +15,7 @@ page '/page.php', :layout => false
 page '/feed.xml', :layout => false
 page '/', :layout => 'indices'
 page '/articles', :layout => 'indices'
+page '/contact.html', :layout => 'indices'
 #page '/articles/index.html', :layout => 'indices'
 
 activate :blog do |blog|
