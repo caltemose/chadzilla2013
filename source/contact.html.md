@@ -3,7 +3,7 @@ title: Other places you will find me online.
 desc: Online contact information for Chad Altemose.
 ---
 
-# Where You Can Find Me Online
+# Find Me Online
 
 
 ### [Twitter](http://twitter.com/caltemose)
