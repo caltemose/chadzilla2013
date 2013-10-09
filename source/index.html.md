@@ -14,3 +14,5 @@ Occasionally I write an article relating to creative technology and design. [Thi
 I love process. Recently I wrote about [the web design and development process](/articles/2013/09/24/site-inspiration/) in the current era of HTML5 standards, the mobile boom and the internet of things.
 
 If you want to connect, check my [contact page](/contact) for ways to find me online.
+
+[My old site still exists here](/site/) if you want to see some photos or read our travel blog from our 2009 off-year in Europe.

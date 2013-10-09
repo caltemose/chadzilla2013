@@ -13,9 +13,9 @@ set :layout, "default"
 page '/styles.html', :layout => false
 page '/page.php', :layout => false
 page '/feed.xml', :layout => false
-page '/', :layout => 'indices'
-page '/articles', :layout => 'indices'
-page '/contact.html', :layout => 'indices'
+page '/', :layout => 'default'
+page '/articles', :layout => 'article-index'
+page '/contact.html', :layout => 'default'
 #page '/articles/index.html', :layout => 'indices'
 
 activate :blog do |blog|
