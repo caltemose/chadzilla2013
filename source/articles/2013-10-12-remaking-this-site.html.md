@@ -1,5 +1,5 @@
 ---
-title: Remaking This Site and Simplifying Modern Web Development
+title: On Remaking This Site
 date: 2013-10-12
 tags: creative-tech, web development
 ---
