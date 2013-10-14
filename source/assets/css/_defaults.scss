@@ -111,12 +111,25 @@ a {
   }
 }
 
-ol, ul {
-}
-
 li {
   margin-bottom: 0.3em;
 }
+
+section ol, article ol, section ul, article ul {
+  margin: 1em;
+  
+  li {
+    margin: 1em;
+  }
+}
+
+section ol, article ol {
+  list-style: decimal;
+}
+section ul, article ul {
+  list-style: disc;
+}
+
 
 // @TODO implement proper code styling
 
