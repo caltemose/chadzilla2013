@@ -1,7 +1,6 @@
 ---
 title: Thoughts on Atlanta's Govathon 2013
 date: 2013-03-24
-tags: creative-tech
 ---
 
 # Thoughts on Atlanta's Govathon 2013

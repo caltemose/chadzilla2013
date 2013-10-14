@@ -12,18 +12,19 @@ set :layout, "default"
 #set :build_dir, "build"
 page '/styles.html', :layout => false
 page '/page.php', :layout => false
-page '/feed.xml', :layout => false
+# page '/feed.xml', :layout => false
 page '/', :layout => 'default'
-page '/articles', :layout => 'article-index'
+page '/articles', :layout => 'article'
+page '/articles/*', :layout => 'article'
 page '/contact.html', :layout => 'default'
 #page '/articles/index.html', :layout => 'indices'
 
-activate :blog do |blog|
-  blog.prefix = "articles"
-  blog.layout = "article"
-  blog.tag_template = "templates/tag.html"
-  blog.calendar_template = "templates/calendar.html"
-end
+# activate :blog do |blog|
+#   blog.prefix = "articles"
+#   blog.layout = "article"
+#   blog.tag_template = "templates/tag.html"
+#   blog.calendar_template = "templates/calendar.html"
+# end
 
 
 # markdown options
