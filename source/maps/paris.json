@@ -1,0 +1,49 @@
+{
+  "options": {
+     "center": [48.8580391,2.344335],
+     "zoom": 13,
+     "spots": [
+        {
+          "label": "Home", 
+          "ll": [48.85351, 2.3665261], 
+          "icon": "home"
+        },
+        {
+          "label": "Lots of Wine", 
+          "ll": [48.8544364, 2.3557105], 
+          "addy": "54, rue de l'Hotel de Ville, Paris, France", 
+          "icon": "bar", 
+          "notes": "<p>This is a fantastic wine bar where you can spend an afternoon or evening. The owner is Nathalie and the best thing you can do is tell her what kind of wine you like and let her make your choices. There is a small menu of charcuterie and cheese to snack on while you drink, peruse the many wines on the walls and enjoy the wonderful atmosphere.</p><p>In my case I asked for an interesting white and she poured me a wine which reminded me of ciders from the Basque region (southwest France/northern Spain on the Atlantic).</p><p>If you like wine, you would be silly not to go here.</p>"
+        },
+        {
+          "label":"Chez Marie Louise", 
+          "ll": [48.87187910000001, 2.3665332], 
+          "addy": "11, rue Marie et Louise, Paris, France", 
+          "icon": "restaurant",
+          "notes": "<p>This is small restaurant in the 10th arrondisement we visited with some Parisien friends. The food is wonderful and the staff very friendly. Juli said she could \"kiss the waiter\" for steering her away from Rongon de Veau which she didn't realize was veal kidney (she was fine with veal, not so much its kidney).</p><p>It's less likely you'll find tourists here and the staff speaks English so you'll be fine if you don't speak French. You should make reservations; the place is pretty small.</p>"
+        },
+        {
+          "label":"Chez Mademoiselle", 
+          "ll": [48.8544085, 2.3600435], 
+          "addy": "16, rue Charlemagne, Paris, France", 
+          "icon": "restaurant", 
+          "notes": "<p>We stumbled across this place one afternoon for lunch. The staff was friendly and the food quite good. The daily menu was fresh and modern and the prices good. I would be happy to have this as a local joint and eat there weekly.</p>"
+        },
+        {
+          "label": "Parc Floral",
+          "ll": [48.840091, 2.437291],
+          "addy": "Route de la Pyramide, Paris, France",
+          "icon": "park",
+          "www": "http://www.parcfloraldeparis.com/",
+          "notes": "<p>This park is planted with an enormous variety of plants labeled as you would find at a botanical garden. It was, in fact, more beautiful than most botanical gardens I've visited.</p><p>We spent the morning here admiring the plants and flowers and walking through an area dedicated to an international flower competition. It was one of the most beautiful things I've seen. I highly recommend a visit. Take a picnic and have lunch there or an afternoon snack.</p>"
+        },
+        {
+          "label": "Bastille Market",
+          "ll": [48.854212, 2.369871],
+          "addy": "Bastille Metro Station, Paris, France",
+          "icon": "market",
+          "notes": "<p>On Boulevard Richard Lenoir just north of the Bastille metro station is a food market (currently Thursdays and Sundays) which is a must-see if you are into that sort of thing. There are stands for produce, seafood, meat, bread, cheese/dairy and pretty much anything you need to get cooking.</p><p>Sundays are more crowded than Thursdays. Prices are high for France but still lower than they are in the USA for most things (there are some seafood items that are dang expensive but they are things you can't usually find in the USA -- and they are pretty marvelous if you decide to splurge).</p>"
+        }
+     ]
+  }
+}

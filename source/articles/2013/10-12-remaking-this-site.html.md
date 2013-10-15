@@ -12,9 +12,10 @@ I built the site using Expression Engine which I was using a lot those days. The
 
 ## Evaluating the Past
 
-This year (2013) when I decided to rebuild the site, the most important goal was simplification. How could I make the site easy enough to maintain that I would be able to add and curate content without the site getting stale like it had so many times in the past during my 20-year career on the web? I wanted to focus on content and let the technology stay in the background.
+This year (2013) when I decided to rebuild the site, the most important goal was simplification. How could I make the site easy enough to maintain that I would be able to add and curate content without the site getting stale like it had so many times in the past? I wanted to focus on content and let the technology stay in the background.
 
-I spent a great deal of time thinking about the site, its history and what kind of content would keep me engaged in the site and interested in maintaining it. It may sound strange to hear that coming from someone who's made a career building web sites and other interactive media but there's a very important factor to remember that I think many other web designers and developers will find familiar. **When I get home from work, the last thing I want to do is more work.** And maintaining a personal site, no matter what the content, frequently feels like more work, especially when you'd rather be spending time with your wife, your friends, in your garden, getting exercise, etc.
+I spent a great deal of time thinking about the site, its history and what kind of content would keep me engaged in the site and interested in maintaining it. It may sound strange to hear that coming from someone who's made a career building web sites and other interactive media but there's a very important factor to remember that I think many other web designers and developers will find familiar. **When I get home from work, the last thing I want to do is more work.** And maintaining a personal site, no matter what the content, frequently feels like more work, especially when you'd rather be spending time with your wife, your friends, in your garden, getting exercise, etc. You know, being alive and human.
+
 
 ## Semantics and Speed
 
@@ -24,7 +25,7 @@ These were extremely important factors in my decisions for how I'd rebuild this 
 
 ## Looking to the Future and My Expected Audience
 
-Another important, and you may say lazy, decision I made was to lose my concern for older browsers and desktop users. If you are using Internet Explorer 7, then it is very unlikely you are in the target audience for this site, at least for the content related to the creative-tech and web design/development industry. So I see no reason to support your browser/tech from 10 years ago. Hence you'll find modern, HTML5-focused semantic code here. Without a lot of shims and patches to handle outdated technology.
+Another important, and you may say lazy, decision I made was to lose my concern for older browsers and desktop users. If you are using Internet Explorer 7, then it is very unlikely you are in the target audience for this site, at least for the content related to the creative-tech and web design/development industry. So I see no reason to support your browser/tech from 10 years ago. Hence you'll find modern, HTML5-focused semantic code here, without shims and patches to handle outdated technology.
 
 I decided, like many these days, to focus on mobile and tablet devices and tech-saavy users. Hence the slimmed-down code, minimal design and focus on text-driven content.
 
@@ -44,6 +45,11 @@ I maintain this site with a static site generator (currently [Middleman](http://
 Currently the only downside to this process is that I cannot easily publish content from a mobile phone or tablet. It is technically possible but kind of a pain in the ass.
 
 This will change over time so I'm not worried. And these days, most of my mobile, off-the-cuff publishing happens in places like Twitter.
+
+
+## Moving On
+
+?
 
 
 ## Roll the Credits

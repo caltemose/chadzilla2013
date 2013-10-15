@@ -10,14 +10,22 @@ set :fonts_dir, "assets/fonts"
 set :layouts_dir, "layouts"
 set :layout, "default"
 #set :build_dir, "build"
-page '/styles.html', :layout => false
-page '/page.php', :layout => false
-# page '/feed.xml', :layout => false
+# core/main pages
 page '/', :layout => 'default'
+page '/styles.html', :layout => false
+page '/contact.html', :layout => 'default'
+# articles section
 page '/articles', :layout => 'article'
 page '/articles/*', :layout => 'article'
-page '/contact.html', :layout => 'default'
-#page '/articles/index.html', :layout => 'indices'
+# maps folder
+page '/maps/map.html', :layout => false
+page '/maps/*.json', :layout => false
+# files/pages to ignore
+page '/page.php', :layout => false
+
+
+
+# page '/feed.xml', :layout => false
 
 # activate :blog do |blog|
 #   blog.prefix = "articles"
