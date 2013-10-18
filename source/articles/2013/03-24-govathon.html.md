@@ -16,7 +16,7 @@ I chose the team for Civic Spaces because the team had it's idea generator (the 
 
 ## First Evening Sketching and Tech Issues
 
-I spent the rest of the evening doing sketches (see here and here) to work out the interactions and user flow for our prototype. The devs worked on the technical solution for an MVP and dealt with a variety of technical issues (bad WiFi, github issues) throughout the evening. Hopefully we all learned that you can't let a lack of WiFi or other tech issues get in the way of moving the idea forward. Those delays negatively impacted the amount of work we were able to get done over the weekend.
+I spent the rest of the evening doing sketches (see [here](govathon-sketch1.jpg) and [here](govathon-sketch2.jpg)) to work out the interactions and user flow for our prototype. The devs worked on the technical solution for an MVP and dealt with a variety of technical issues (bad WiFi, github issues) throughout the evening. Hopefully we all learned that you can't let a lack of WiFi or other tech issues get in the way of moving the idea forward. Those delays negatively impacted the amount of work we were able to get done over the weekend.
 
 
 ## Day Two at Hypepotamus

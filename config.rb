@@ -57,6 +57,7 @@ activate :deploy do |deploy|
   deploy.method = :rsync
   deploy.user = "chadzilla"
   deploy.host = "chadzilla.com"
-  deploy.path = "/home/chadzilla/redo.chadzilla.com/"
-  deploy.after_build = false
+  #deploy.path = "/home/chadzilla/redo.chadzilla.com/"
+  deploy.path = "/home/chadzilla/chadzilla.com/"
+  deploy.clean = false
 end
