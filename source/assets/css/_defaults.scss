@@ -96,6 +96,9 @@ h2 + h3 {
   margin-top: 0;
 }
 
+h4, h5 {
+  font-weight: normal;
+}
 // @TODO h4, h5
 
 p {
@@ -129,6 +132,26 @@ section ol, article ol {
 section ul, article ul {
   list-style: disc;
 }
+
+// #ul
+.articles { 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: 0.9em;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+  }
+}
+
 
 
 // @TODO implement proper code styling

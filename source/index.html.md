@@ -6,12 +6,13 @@ keywords: chad altemose, design, creative technology, html5, development
 
 My name is Chad Altemose and I have been using technology to make fun and useful stuff professionally for about two decades. 
 
-<!-- If you're interested in my career, see the [work page](/work).
- -->
+If you're interested in my career, see my previous [work site](/work) for now.
 
-I've written a few articles relating to creative technology and design. [This page](/articles) lists them.
+[Here you'll find articles I've written](/articles) relating to creative technology and design. Most recently I wrote about [rebuilding this site](/articles/2013/10/12/remaking-this-site/) where I discuss simplifying web development and looking to its future.
 
-I rebuilt and simplified this site recently. I wrote about [it here](/articles/2013/10/12/remaking-this-site/) where I discuss simplifying web development and looking to the future.
+You can find my photography on [my Flickr site](http://flickr.com/caltemose). Most of it is travel-related.
+
+When I travel I research plenty and make maps (Google) of places I went that I'd revisit. [Check them out here.](/maps)
 
 If you want to connect, check my [contact page](/contact) for ways to find me online.
 
