@@ -10,9 +10,9 @@ If you're interested in my career, see my previous [work site](/work) for now.
 
 [Here you'll find articles I've written](/articles) relating to creative technology and design. Most recently I wrote about [rebuilding this site](/articles/2013/10/12/remaking-this-site/) where I discuss simplifying web development and looking to its future.
 
-You can find my photography on [my Flickr site](http://flickr.com/caltemose). Most of it is travel-related.
+I do a lot of research when I travel and have started saving some of those resources including maps of places to go, day plans and other suggestions. [Check my travel section](/travel) for more info.
 
-When I travel I research plenty and make maps (Google) of places I went that I'd revisit. [Check them out here.](/maps)
+You can find my photography on [Flickr](http://flickr.com/caltemose). Most of it is travel-related.
 
 If you want to connect, check my [contact page](/contact) for ways to find me online.
 

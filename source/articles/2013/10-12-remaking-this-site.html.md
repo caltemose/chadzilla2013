@@ -25,15 +25,15 @@ These were extremely important factors in my decisions for how I'd rebuild this 
 
 ## Looking to the Future and My Expected Audience
 
-Another important, and you may say lazy, decision I made was to lose my concern for older browsers and desktop users. If you are using Internet Explorer 7, then it is very unlikely you are in the target audience for this site, at least for the content related to the creative-tech and web design/development industry. So I see no reason to support your browser/tech from 10 years ago. Hence you'll find modern, HTML5-focused semantic code here, without shims and patches to handle outdated technology.
+Another important decision I made was to lose my concern for older browsers and desktop users. If you are using Internet Explorer 7, then it is very unlikely you are in the target audience for this site, at least for the content related to the creative-tech and web design/development industry. So I see no reason to support your browser/tech from 10 years ago. Hence you'll find modern, HTML5-focused semantic code here, without shims and patches to handle outdated technology.
 
 I decided, like many these days, to focus on mobile and tablet devices and tech-saavy users. Hence the slimmed-down code, minimal design and focus on text-driven content.
 
-## Design and Lack of It (sort of)
+## Design and Lack of Sexiness
 
 I am a designer. I've struggled at times with the "Are you a designer or a developer?" question and the fact is I still think, live, eat, breath, shit, walk, and speak like a designer. It's something I can't get rid of (wouldn't want to anyway) no matter what internal mental struggles I have or what other people think (which I haven't cared about anyway ever since I could think).
 
-That said, it's fairly obvious I didn't spend a lot of time making a beautiful visual design for this site. I have focused on making the typography live up to a high standard and will continue to work on that until I find it meets that standard. That is still in progress because that's the way the web works. And that's just fine with me.
+That said, it's fairly obvious I didn't spend a lot of time making a beautiful visual design for this site. I have focused on making the typography live up to a high standard and will continue to work on that until I find it meets that standard. And that's just fine with me.
 
 **This site is not a shining example of any glorious visual design I may be capable of and it should not be.** My design efforts here focus on non-visual design, i.e., content, interaction/organization and technical (for improving the experience and speed of this site).
 

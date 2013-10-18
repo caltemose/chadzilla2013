@@ -74,7 +74,7 @@ html
         var hash = window.location.hash;
         if (hash==='') hash = '#paris';
         hash = hash.replace('#', '');
-        $.getJSON('../' + hash + '.json', function(data){
+        $.getJSON(hash + '.json', function(data){
           initialize(data.options);
         });
       });

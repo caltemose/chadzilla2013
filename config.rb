@@ -17,9 +17,9 @@ page '/contact.html', :layout => 'default'
 # articles section
 page '/articles', :layout => 'article'
 page '/articles/*', :layout => 'article'
-# maps folder
-page '/maps/map.html', :layout => false
-page '/maps/*.json', :layout => false
+# travel folder
+page '/travel/maps/index.html', :layout => false
+page '/travel/maps/*.json', :layout => false
 # files/pages to ignore
 page '/page.php', :layout => false
 
