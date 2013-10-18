@@ -8,7 +8,7 @@ My name is Chad Altemose and I have been using technology to make fun and useful
 
 If you're interested in my career, see my previous [work site](/work) for now.
 
-[Here you'll find articles I've written](/articles) relating to creative technology and design. Most recently I wrote about [rebuilding this site](/articles/2013/10/12/remaking-this-site/) where I discuss simplifying web development and looking to its future.
+[Here you'll find articles I've written](/articles) relating to creative technology and design. Most recently I wrote about [rebuilding this site](/articles/2013/10-12-modern-web-development/) where I discuss simplifying web development and looking to its future.
 
 I do a lot of research when I travel and have started saving some of those resources including maps of places to go, day plans and other suggestions. [Check my travel section](/travel) for more info.
 

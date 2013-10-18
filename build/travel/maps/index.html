@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+      h4 { margin: 0 0 0.5em; padding: 0 }
+      address, a.www { display: block; }
+      a.www { margin-bottom: 0.5em; }
+    </style>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="/assets/js/vendor/zepto.min.js"></script>
+    <script type="text/javascript">
+      function initialize(options) {
+        var mapOptions = {
+          center: new google.maps.LatLng(options.center[0], options.center[1]),
+          zoom: options.zoom,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        var imageBase = 'http://files.chadzilla.com/map-icons/';
+        var shape = {
+            coord: [6,3,34,3,38,28,21,36,4,29],
+            type: 'poly'
+        };
+      
+        var i=0, image, html, infoWindow, marker, spot;
+        infowindow = new google.maps.InfoWindow({content:"empty"});
+      
+        for(i; i<options.spots.length; i++) {
+          spot = options.spots[i];
+          image = {
+            url: imageBase + spot.icon + '.png',
+            size: new google.maps.Size(42, 40),
+            origin: new google.maps.Point(0,0),
+            anchor: new google.maps.Point(21, 35)
+          };
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(spot.ll[0], spot.ll[1]),
+            map: map,
+            title: spot.label,
+            icon: image,
+            shape: shape
+          });
+      
+          html = '<section class="infowindow">';
+          html += "<h4>" + spot.label + "</h4>";
+          if (spot.addy) html += "<address>" + spot.addy + "</address>";
+          if (spot.www) html += '<a href="' + spot.www + '" class="www">' + spot.www + '</a>';
+          if (spot.notes) html += spot.notes;
+          html += "</section>";
+      
+          marker.customContent = html;
+      
+          google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setContent(this.customContent);
+            infowindow.open(map, this);
+          });
+        }
+      }
+      
+      Zepto(function($){
+        var hash = window.location.hash;
+        if (hash==='') hash = '#paris';
+        hash = hash.replace('#', '');
+        $.getJSON(hash + '.json', function(data){
+          initialize(data.options);
+        });
+      });
+    </script>
+  </body>
+</html>
