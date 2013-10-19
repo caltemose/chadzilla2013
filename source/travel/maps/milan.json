@@ -1,0 +1,52 @@
+{
+  "options": {
+     "center": [45.47, 9.181],
+     "zoom": 14,
+     "spots": [
+        {
+          "label": "Home", 
+          "ll": [45.4682147, 9.1855052], 
+          "icon": "home",
+          "notes": "<p>This was definitely one of the best apartments I've stayed in while in Europe and most certainly the best I've rented in Milan. 10th floor - panoramic city view. Worth the money.</p>"
+        },
+        {
+          "label": "Bottega del Vino", 
+          "ll": [45.45694, 9.175295], 
+          "addy": "Corsa Genova, Milan, Italy", 
+          "icon": "bar", 
+          "notes": "<p>This is a wine shop with picnic tables where you can sit and have a free snack (or paid ones) and a taste some wines. It's definitely a good time on your way to or from the Navigli district.</p>"
+        },
+        {
+          "label": "Duomo di Milano", 
+          "ll": [45.464277, 9.191512], 
+          "icon": "architecture",
+          "www": "http://www.duomomilano.it/‎",
+          "notes": "<p>No first trip to Milan is complete without a trip to the Duomo. It's massive and unavoidable. If I remember correctly, it's the 5th largest cathedral in the world. If you're lucky, someone will be playing the organ when you visit the inside.</p><p>For a great view of the city, be sure to visit the roof.</p>"
+        },
+        {
+          "label": "San Lorenzo Maggiore", 
+          "ll": [45.458024, 9.181781], 
+          "icon": "architecture", 
+          "notes": "<p>The church right near the columns of Porta Ticinese &ndash; worth a visit if you are near it. It's clean and beautiful and there's a nice park area behind it where you can have a rest or just enjoy the weather if it's good.</p>"
+        },
+        {
+          "label": "Cantina della Vetra", 
+          "ll": [45.458727, 9.181773], 
+          "icon": "restaurant", 
+          "notes": "<p>We had a lovely lunch here with a good salami plate, some wonderful burrata and some stuffed pasta (with zucca) that were really good. The bottle of Franciacorta wine wasn't bad either. I'd definitely go again.</p><p>Here's where I learned by watching some locals how to spread risotto around a plate so it cools faster.</p>"
+        },
+        {
+          "label": "Basillica di Sant'Ambrogio", 
+          "ll": [45.462569, 9.175858], 
+          "icon": "architecture", 
+          "notes": "<p>A beautiful church worth a trip inside to see it.</p>"
+        },
+        {
+          "label": "San Marco Market", 
+          "ll": [45.475051, 9.188336], 
+          "icon": "market", 
+          "notes": "<p>Monday and Thursday mornings a great market happens here with a mixture of food, clothing and household items. I went for the food (big surprise). Despite being in/near the fancy Brera neighborhood prices were good. A whole roasted chicken was 5.50&euro; and i bought 4 blocks of good cheese (pecorino, parmeggiano, talegio, brigante) for just 12&euro;. (Note: those are 2009 prices. For comparison, the same chicken in Paris in 2013 was at least 10&euro;.)</p>"
+        }
+     ]
+  }
+}

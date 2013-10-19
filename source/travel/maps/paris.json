@@ -43,6 +43,13 @@
           "addy": "Bastille Metro Station, Paris, France",
           "icon": "market",
           "notes": "<p>On Boulevard Richard Lenoir just north of the Bastille metro station is a food market (currently Thursdays and Sundays) which is a must-see if you are into that sort of thing. There are stands for produce, seafood, meat, bread, cheese/dairy and pretty much anything you need to get cooking.</p><p>Sundays are more crowded than Thursdays. Prices are high for France but still lower than they are in the USA for most things (there are some seafood items that are dang expensive but they are things you can't usually find in the USA -- and they are pretty marvelous if you decide to splurge).</p>"
+        },
+        {
+          "label": "L'Ami Jean",
+          "ll": [48.8602964, 2.3059845],
+          "addy": "27, rue Malar, Paris, France",
+          "icon": "restaurant",
+          "notes": "<p>Good stuff</p>"
         }
      ]
   }

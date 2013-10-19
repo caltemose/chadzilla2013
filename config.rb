@@ -12,7 +12,7 @@ set :layout, "default"
 #set :build_dir, "build"
 # core/main pages
 page '/', :layout => 'default'
-page '/styles.html', :layout => false
+page '/old-index.html', :layout => false
 page '/contact.html', :layout => 'default'
 # articles section
 page '/articles', :layout => 'article'
