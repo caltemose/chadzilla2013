@@ -14,6 +14,8 @@ set :layout, "default"
 page '/', :layout => 'default'
 page '/old-index.html', :layout => false
 page '/contact.html', :layout => 'default'
+# random section
+page '/random/index.html', :layout => 'random-index'
 # articles section
 page '/articles', :layout => 'article'
 page '/articles/*', :layout => 'article'
@@ -25,14 +27,14 @@ page '/page.php', :layout => false
 
 
 
-# page '/feed.xml', :layout => false
+page '/feed.xml', :layout => false
 
-# activate :blog do |blog|
-#   blog.prefix = "articles"
-#   blog.layout = "article"
-#   blog.tag_template = "templates/tag.html"
-#   blog.calendar_template = "templates/calendar.html"
-# end
+activate :blog do |blog|
+  blog.prefix = "random"
+  blog.layout = "random"
+  blog.tag_template = "templates/tag.html"
+  blog.calendar_template = "templates/calendar.html"
+end
 
 
 # markdown options

@@ -16,4 +16,4 @@ You can find my photography on [Flickr](http://flickr.com/caltemose). Most of it
 
 If you want to connect, check my [contact page](/contact) for ways to find me online.
 
-[My old site still exists here](/site/) if you want to see some photos or read our travel blog from our 2009 off-year in Europe.
+My previous site still exists [here](/site/) if you want to read our [travel blog from our 2009 off-year in Europe](/site/travelog/) or see some of the [food highlights](/site/travelog/travelmeals) from that trip.
