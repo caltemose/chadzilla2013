@@ -33,7 +33,8 @@
           "label": "Cantina della Vetra", 
           "ll": [45.458727, 9.181773], 
           "icon": "restaurant", 
-          "notes": "<p>We had a lovely lunch here with a good salami plate, some wonderful burrata and some stuffed pasta (with zucca) that were really good. The bottle of Franciacorta wine wasn't bad either. I'd definitely go again.</p><p>Here's where I learned by watching some locals how to spread risotto around a plate so it cools faster.</p>"
+          "www": "http://www.cantinadellavetra.it",
+          "notes": "<p>We had a lovely lunch here with a good salami plate, some wonderful burrata and some stuffed pasta (with pumpkin) that were really good. The bottle of Franciacorta wine wasn't bad either. I'd definitely go again.</p><p>Here's where I learned by watching some locals how to spread risotto around a plate so it cools faster.</p>"
         },
         {
           "label": "Basillica di Sant'Ambrogio", 
@@ -46,7 +47,34 @@
           "ll": [45.475051, 9.188336], 
           "icon": "market", 
           "notes": "<p>Monday and Thursday mornings a great market happens here with a mixture of food, clothing and household items. I went for the food (big surprise). Despite being in/near the fancy Brera neighborhood prices were good. A whole roasted chicken was 5.50&euro; and i bought 4 blocks of good cheese (pecorino, parmeggiano, talegio, brigante) for just 12&euro;. (Note: those are 2009 prices. For comparison, the same chicken in Paris in 2013 was at least 10&euro;.)</p>"
+        },
+        {
+          "label": "N'Ombra de Vin", 
+          "ll": [45.473365, 9.187949], 
+          "icon": "bar", 
+          "www": "http://www.nombradevin.it/",
+          "notes": "<p>This is a great wine bar. Stop by for a quick glass at the bar, sit outside or bring a gang and hangout in the beautiful basement. Eating, drinking and being merry is easy here. Even if you stand at the bar, make sure you take a peek downstairs.</p>"
+        },
+        {
+          "label": "Salsamenteria di Parma", 
+          "ll": [45.4733646, 9.1879054], 
+          "icon": "restaurant", 
+          "www": "http://www.salsamenteriadiparma.it/",
+          "notes": "<p>It's not often I'll recommend a franchise but this place is simple, good and does not feel like a franchise. It specializes in products from Parma -- a town most well-known for its world-famous Parmeggiano. The cured meats are fantastic. If you are a fan of ricotta, do not miss the Ricotta di Bufala, a ricotta made from the same dairy (water buffalo) used in Mozzarella di Bufala.</p>"
+        },
+        {
+          "label": "Shokolat", 
+          "ll": [45.467688, 9.174123], 
+          "icon": "restaurant", 
+          "notes": "<p>This gelateria makes some of the creamiest, most wonderfully-textured gelato I've had. If you're into pistachio, get it here.</p><p>My only fret with this shop is that it doesn't offer any of the more adventurous flavors that I'm used to getting in Milan. Nonetheless, a good pistachio is always welcome.</p>"
+        },
+        {
+          "label": "Frozen", 
+          "ll": [45.453985, 9.180384], 
+          "icon": "restaurant", 
+          "notes": "<p>This gelateria delivers adventurous and wonderful combinations of flavors. One of my favorites here was peach, ginger and basil. It's a great place to stop after eating lunch at Cantina de Vetra right up the street.</p><p>One note, I'm not 100% sure this is the shop I remember but I'm mostly certain it is. Will confirm next time around.</p>"
         }
+        
      ]
   }
 }
