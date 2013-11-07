@@ -1,6 +1,9 @@
 - wrap_layout :base do
     
   article
+    time
+      = data.page.date
+
     == yield
 
   == partial "layouts/articles-subnav"

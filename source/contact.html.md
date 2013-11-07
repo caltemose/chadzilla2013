@@ -5,7 +5,8 @@ desc: Online contact information for Chad Altemose.
 
 # Find Me Online
 
-
+<span style="margin-bottom: 0"></span>
+ 
 ### [Twitter](http://twitter.com/caltemose)
 
 Most of what I post on Twitter is industry/career related. The rest is just nonsense. Or food porn.
