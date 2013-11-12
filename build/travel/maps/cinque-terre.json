@@ -1,0 +1,54 @@
+{
+  "options": {
+     "center": [44.1115594, 9.7338937],
+     "zoom": 13,
+     "spots": [
+        {
+          "label": "Cantina de Mananan", 
+          "ll": [44.11998699, 9.70860699], 
+          "icon": "restaurant",
+          "notes": "<p>Hands-down our favorite restaurant in the region. Do not hesitate to make reservations and go. If you're early (and you should be) stop next door at Il Pirun for a glass of wine.</p>"
+        },
+        {
+          "label": "Il Pirun", 
+          "ll": [44.12, 9.70869], 
+          "icon": "bar",
+          "notes": "<p>Stop here for a glass of regional wine. The proprietor is a character not to miss. He makes his own wines -- if drinking his wines, I'd head straight for the famous Cinque Terre dessert wine, the Sciacchetr&agrave;. His is well-priced and quite good. If you're not getting sweet wines, you might want to stick to other local producers, like Tobbiolo or Burrasca.</p>"
+        },
+        {
+          "label": "Bar Ricci", 
+          "ll": [44.119945, 9.708412], 
+          "icon": "bar",
+          "notes": "<p>Stop here for a snack and meet Cristiana. She's super nice, speaks English and pours a great caff&eacute;. She also rents some of the better rooms in Corniglia.</p>"
+        },
+        {
+          "label": "Zio Bramante", 
+          "ll": [44.106650, 9.72748], 
+          "icon": "bar",
+          "notes": "<p>Stop here for music in the evening and a glass of wine, beer and a snack (cold only, no kitchen). This is the place to be in Manarola late at night, if you're not opting to sit on your apartment's terrace and listen to the sea.</p><p>Last time I was there, the proprietor was playing classical guitar and goofing around with songs by Michael Jackson and Metallica. Fun stuff.</p>"
+        },
+        {
+          "label": "Bella Napoli", 
+          "ll": [44.1062772, 9.815214500000002], 
+          "icon": "restaurant",
+          "address": "Via Antonio Gramsci, 173-175, La Spezia, Italy",
+          "www": "http://www.bellanapolionline.it/",
+          "notes": "<p>If you're looking for pizza in La Spezia (or the Cinque Terre region), look no further than this place.</p>"
+        },
+        {
+          "label": "Acronia", 
+          "ll": [44.10444649999999, 9.8225774], 
+          "icon": "restaurant",
+          "address": "Via Manin, 31, La Spezia, Italy",
+          "notes": "<p>This is a great little cantina owned by a somellier whose first cantina is in Riomaggiore in the Cinque Terre. Here you can get a great tour of local and regional wines (as well as others if you like). Well worth a visit. Don't miss the Genovese-style focaccia.</p>"
+        },
+        {
+          "label": "A Pi&eacute; de m&agrave;", 
+          "ll": [44.0990492, 9.737485099999999], 
+          "icon": "bar",
+          "address": "Via dell'Amore, 55, Riomaggiore, Italy",
+          "notes": "<p>This cantina has one of the best views in the world and is owned by a somellier who knows her regional wines quite well. Absolutely stop here if you're in the area and spend the afternoon snacking and sipping wine. In 2007 my family and I had an unforgettable evening here tasting wine and learning about the region.</p>"
+        }
+     ]
+  }
+}
