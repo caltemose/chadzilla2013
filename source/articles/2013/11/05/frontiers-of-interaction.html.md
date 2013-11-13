@@ -27,14 +27,14 @@ He reminded us **noise and randomness are useful for invention**. In other words
 
 My next workshop was run by Jeroen Van Geel ([@jeroenvangeel](http://twitter.com/jeroenvangeel)), a Dutch creative director. Here are a few takeaways:
 
-"Not all products are consciously designed." (Think HP Notebook, its personality is achieved by accident through engineering.)
+**"Not all products are consciously designed."** (Think HP Notebook; its personality is achieved by accident through engineering.)
 
 Frequently in the design process (specifically digital this time) Jeroen suggested that we have:
 
 - too much: IA, design patterns and wireframes
 - not enough: storytelling, meaning and personality
 
-"Flaws add to believability." (Think about peoples' personalities and their flaws which make them seem more human. Products and brands are the same.)
+**"Flaws add to believability."** (Think about peoples' personalities and their flaws which make them seem more human. Products and brands are the same.)
 
 
 ### Workshop Three: Mega Workshop with Dave Gray
@@ -53,7 +53,7 @@ Remember that. It's a lesson I've known for a long time which helps me grow cont
 We ended the presentations for the day with some interesting entertainment and geekery from [Jared Ficklin](http://jaredficklin.com), principal technologist at [Frog Design](http://www.frogdesign.com). He experiments with physics in his spare time. To learn more about his experiments visit his site. Two important takeaways from his entertaining end to the day:
 
 - Mess with stuff. It's fun and you learn from it. (This is one reason I shoot [timelapse](http://vimeo.com/caltemose).)
-- "Things are not always what you are told they are."
+- "Things are not always what you are told they are." (And therefore you should do your own exploration.)
 
 
 ## Day Two Highlights
@@ -90,7 +90,7 @@ Jared's talk was titled "The Next Pattern of Computing" and focused on removing 
 
 For me hearing this after Fabian's talk really made me think about what it is I want to do with technology in the future, both in my career and personal life. It also made me more excited to merge my schooling (architecture) with my career path (design and creative tech). We'll see where that leads.
 
-Another thing Jared said that stuck with me was (paraphrased) **think by making, deliver by demo.** In other words, you will learn more from making things and experimenting than by thinking and talking about tech. Or at least that's how I took it.
+Another thing Jared said that stuck with me was (paraphrased) **think by making, deliver by demo.** In other words, you will learn more from making things and experimenting than by thinking and talking about tech. The best way to share new and engaging ideas in technology and interactivity is by showing a demo/prototype. Or at least, that's how I chose to interpret his words.
 
 
 ### The Keynote: Richard Saul Wurman
@@ -101,28 +101,29 @@ Richard Saul Wurman is the creator of TED (which he reminded us is Technology, *
 
 When I think about what I took away from the conference, it really did boil down to artifacts from conversations with new acquaintances and friends.
 
-Later, Mr. Wurman said he was no fan of education which sounds harse when taken out of context. I taught in an official setting for a while so hearing that was difficult but I realized I completely agree with him because of what he said next. Rather than learning from the top down (traditional/official education) he favors learning from the bottom up. In other words, learn by doing and experiencing. We all know experience is the best teacher, even when harsh. Adding to that, he said he preferred "curiosity augmentation" -- fostering another person's learning by piquing her/his curiosity.
+Later, Mr. Wurman said he was no fan of education which sounds harse when taken out of context. I taught in an official setting for a while so hearing that was difficult but I realized I completely agree with him because of what he said next. Rather than learning from the top down (traditional/official education) he favors learning from the bottom up. In other words, learn by doing and experiencing. We all know experience is the best teacher, even when harsh. Adding to that, he said he preferred "curiosity augmentation" -- fostering another person's learning by piquing her or his curiosity.
 
 Mr. Wurman had a lot of other great points -- if you have the opportunity to hear him speak, do not miss it.
 
 
 ## Wrapping Up 
 
-I hope I've given you a glimpse into what happened at the conference and possibly provided motivation for you to attend conferences like this in the future. 
 
-I went to this event because I knew it would be motivating and I'd return home with a great deal of energy for working on personal creative projects and for taking the next steps in my career. In the past, I was more of a quiet-guy designer who avoided networking since it wasn't a comfortable experience. I have my previous job to thank for helping me get out of that shell and recently I've learned that I actually enjoy the social aspects and benefits of networking and attending events like these.
+I attended this event because I knew it would be motivating and I'd return home with a great deal of energy for working on personal creative projects and for taking the next steps in my career. In the past, I was more of a quiet-guy designer who avoided networking since it wasn't a comfortable experience. I have my previous job to thank for helping me get out of that shell and recently I've learned that I actually enjoy the social aspects and benefits of networking and attending events like these.
 
 I'll wrap up with a story from the event which I hope will motivate those of you who are on the quiet side to break out of your shell for the sake of your career.
 
-I attended this conference solo. I knew no one before arriving. After the first day, I stuck around for the cocktail hour and sipped prosecco and met new people. Having really enjoyed Dave Gray's workshop and having used his book at my previous job as a teacher, I wanted to express my thanks to him. I found him talking with some of the volunteers for the conference and I stuck my nose into their conversation (easy to do considering the prominence of my nose). I found the right moment and expressed my thanks to Dave and we chatted for a while. 
+I attended this conference solo. I knew no one before arriving. After the first day, I stuck around for the cocktail hour, sipped prosecco and met new people. I wanted to express my thanks to Dave Gray having really enjoyed his workshop and having used his book at my previous job as a teacher. I found him talking with some of the volunteers for the conference and I stuck my nose into their conversation (easy to do considering the prominence of my nose). I found the right moment and expressed my thanks to Dave and we chatted for a while. 
 
-Eventually a few other speakers from the group joined us and it grew late for dinner, even by Italian standards. I mentioned to Dave that I needed to lay off the prosecco and find a more significant dinner. He agreed -- a good sign. After a little more conversation I said I should start making my way toward the train so that I could eat before it got too late. I'm sure I sounded like I wasn't entirely excited about the 30-40 minute trip back to my neighborhood. I already learned they had a speaker bus. The speakers suggested I catch a ride back to town on the bus as there was plenty of room. They didn't have to ask me twice. (And the bus was practically empty anyway.)
+Eventually a few other speakers from the group joined us and it grew late for dinner. I mentioned to Dave that I needed to lay off the prosecco and find a more significant dinner. He agreed &ndash; a good sign. After a little more conversation I said I should start making my way toward the train so that I could eat before it got too late. I'm sure I sounded like I wasn't entirely excited about the 30-40 minute trip back to my neighborhood. I already learned they had a speaker bus. The speakers suggested I catch a ride back to town on the bus as there was plenty of room. They didn't have to ask me twice. (And the bus was practically empty anyway.)
 
-We boarded the bus and rode back downtown to the speakers' hotel. After the speakers freshened up in their rooms, we took a walk through downtown toward my neighborhood (fortunately for me) looking for a place to have a drink and/or dinner and seeing a few tourist highlights (none of these speakers had been to Milan before). I spent the evening with Jared Ficklin, Jeroen Van Geel, Fabian Hemmert and one of the conference volunteers Matteo Mazzeri discussing sci-fi (okay, listening to Jared Ficklin talk about the sci-fi arc and his sequel to the movie Prometheus), Italian food and a variety of other things. It was a wonderful time.
+We boarded the bus and rode back downtown to the speakers' hotel. After the speakers freshened up in their rooms, we took a walk through downtown toward my neighborhood (fortunately for me) looking for a place to have a drink and dinner and seeing a few tourist highlights (none of these speakers had been to Milan before). I spent the evening with Jared Ficklin, Jeroen Van Geel, Fabian Hemmert and one of the conference volunteers Matteo Mazzeri discussing sci-fi (okay, listening to Jared Ficklin talk about the sci-fi arc and his sequel to the movie Prometheus), Italian food and a variety of other things. It was a wonderful time.
 
 After we finished and I headed back to my apartment (right across the street, score!) I reflected on what a great day I'd had and felt as if the conference was already a success; already worth the money I'd spent to attend it.
 
 I have never worked for a business that sends me to industry conferences that weren't local. The times in my career when I've paid to send myself to distant conferences, they have been invaluable motivators for me and I've returned with gusto, ready to take on any challenge. I hope my story here helps you take charge and get yourself to events like these which can really help you grow and rejuvenate.
+
+And those people who you really admire and would like to talk to &ndash; just go do it. Bud in. It's quite likely you'll be rewarded.
 
 I will definitely attend another foreign conference. I hope to see you there. 
 
