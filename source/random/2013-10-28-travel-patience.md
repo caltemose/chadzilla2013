@@ -6,9 +6,6 @@ tags: travel, communication
 
 # Patience Pays When Traveling
 
-### 28 October 2013
-
-
 I was in Milan recently for the [Frontiers of Interaction](http://frontiersofinteraction.com) conference and went to the metro station at the Duomo to get access to the city's [open wifi network](http://info.openwifimilano.it/) (you need an account but it's worth it if you don't have mobile data service). I handed my ID over to the woman behind the counter so she could create my account. 
 
 Next to me was a Chinese man trying to exchange metro tickets for cheaper tickets as he'd initially bought tickets of the wrong value. It was clear he did not speak English very well. The Italian man he was working with behind the counter spoke English fairly well though it was not his native language.

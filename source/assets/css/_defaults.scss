@@ -174,11 +174,12 @@ section ul, article ul {
 // @TODO implement proper code styling
 
 code {
-  padding: 0.1em;
-  background: lighten($bgColor, 4%); //$codeBgColor;
-  color: #0F520D; //$codeFontColor;
+  padding: 0.2em 0.4em;
+  background: lighten($bgColor, 10); //$codeBgColor;
+  color: #1E85FA; //$codeFontColor;
   font-family: 'Monaco', 'Lucida Console', 'Andale Mono', FreeMono, 'Osaka Monospaced', Courier, monospace;
   font-size: 0.9em;
+  border-radius: 0.3em 0 0.3em 0;
 }
 
 pre {

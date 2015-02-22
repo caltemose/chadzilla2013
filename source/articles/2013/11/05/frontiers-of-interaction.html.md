@@ -5,9 +5,9 @@ date: 2013-11-05
 
 # Highlights of Frontiers of Interaction 2013
 
-I recently attended the [Frontiers of Interaction conference](http://frontiersofinteraction.com) in Milan. It was my first industry conference overseas. I had a fantastic time, met some great people and got to hang out with some well-known industry folks who turned out to be really down-to-earth, way smart and a whole lot of fun.
+I recently attended the [Frontiers of Interaction conference](http://frontiersofinteraction.com) in Milan. It was my first industry conference overseas. I had a fantastic time, met some great people and got to hang out with some well-known industry folks.
 
-What follows are a few highlights from the event -- this isn't an exhaustive list or a comprehensive summary. 
+What follows are a few highlights from the event &ndash; this isn't an exhaustive list or a comprehensive summary. 
 
 The conference took place during two days; Thursday was a day of workshops, Friday a day of 15-30 minute talks grouped into themed sections.
 
@@ -20,7 +20,7 @@ I started with a workshop run by Salvatore Iaconesi ([@xdxd_vs_xdxd](http://twit
 
 From Salvatore: "The future is a thing we build today."
 
-He reminded us **noise and randomness are useful for invention**. In other words, during the idea-generating process, let things flow and let outside and tangential influencers affect your process. You will filter out the unnecessary and unrelated later.
+He reminded us **noise and randomness are useful for invention**. In other words, during the idea-generating process, let things flow and let outside and tangential influencers affect your process. You can filter out the unnecessary and unrelated later.
 
 
 ### Workshop Two: Designing Products with Personality
@@ -41,7 +41,7 @@ Frequently in the design process (specifically digital this time) Jeroen suggest
 
 The final workshop of the day was held in the main conference room and everyone attended it (the morning workshops were in smaller rooms with subsets of attendees). It was led by the fantastic [Dave Gray](http://about.me/davegray) who you may know from his book [Gamestorming](http://gogamestorming.com), which you should get familiar with if you haven't already (presuming you work in communication or product design). 
 
-Dave's workshop was a great example of how you can run a successful workshop with a large number of people (200-300). We focused on sketching ideas and communicating visually. Most of what Dave showed us is best expressed through sketches -- check out his book. However, one really important takeaway from doing a breakout exercise where we split into pairs and interviewed each other was simply this:
+Dave's workshop was a great example of how you can run a successful workshop with a large number of people (200-300). We focused on sketching ideas and communicating visually. Most of what Dave showed us is best expressed through sketches &ndash; check out his book. However, one really important takeaway from doing a breakout exercise where we split into pairs and interviewed each other was simply this:
 
 **"It's more fun to listen."** (As opposed to talking.)
 
@@ -90,20 +90,18 @@ Jared's talk was titled "The Next Pattern of Computing" and focused on removing 
 
 For me hearing this after Fabian's talk really made me think about what it is I want to do with technology in the future, both in my career and personal life. It also made me more excited to merge my schooling (architecture) with my career path (design and creative tech). We'll see where that leads.
 
-Another thing Jared said that stuck with me was (paraphrased) **think by making, deliver by demo.** In other words, you will learn more from making things and experimenting than by thinking and talking about tech. The best way to share new and engaging ideas in technology and interactivity is by showing a demo/prototype. Or at least, that's how I chose to interpret his words.
-
 
 ### The Keynote: Richard Saul Wurman
 
 Richard Saul Wurman is the creator of TED (which he reminded us is Technology, **Entertainment** and Design) and he gave the keynote which was one of the best talks I've heard in quite some time. Here are just a few of his many salient points:
 
-**"You're here because you want to have a conversation with somebody."** I think this is a key thing to remember when attending conferences and really gets to the heart of what Mr. Wurman has done and continues to do with his life's work -- connecting people so they can learn from each other and hear each other's stories (and documenting/publicizing it so we can all learn from the conversation).
+**"You're here because you want to have a conversation with somebody."** I think this is a key thing to remember when attending conferences and really gets to the heart of what Mr. Wurman has done and continues to do with his life's work &ndash; connecting people so they can learn from each other and hear each other's stories (and documenting/publicizing it so we can all learn from the conversation).
 
 When I think about what I took away from the conference, it really did boil down to artifacts from conversations with new acquaintances and friends.
 
-Later, Mr. Wurman said he was no fan of education which sounds harse when taken out of context. I taught in an official setting for a while so hearing that was difficult but I realized I completely agree with him because of what he said next. Rather than learning from the top down (traditional/official education) he favors learning from the bottom up. In other words, learn by doing and experiencing. We all know experience is the best teacher, even when harsh. Adding to that, he said he preferred "curiosity augmentation" -- fostering another person's learning by piquing her or his curiosity.
+Later, Mr. Wurman said he was no fan of education which sounds harsh when taken out of context. I taught in an official setting for a while so hearing that was difficult but I realized I completely agree with him because of what he said next. Rather than learning from the top down (traditional/official education) he favors learning from the bottom up. In other words, learn by doing and experiencing. We all know experience is the best teacher, even when it's painful. Adding to that, he said he preferred "curiosity augmentation" &ndash; fostering another person's learning by piquing her or his curiosity.
 
-Mr. Wurman had a lot of other great points -- if you have the opportunity to hear him speak, do not miss it.
+Mr. Wurman had a lot of other great points and stories &ndash; if you have the opportunity to hear him speak, do not miss it.
 
 
 ## Wrapping Up 
@@ -115,15 +113,15 @@ I'll wrap up with a story from the event which I hope will motivate those of you
 
 I attended this conference solo. I knew no one before arriving. After the first day, I stuck around for the cocktail hour, sipped prosecco and met new people. I wanted to express my thanks to Dave Gray having really enjoyed his workshop and having used his book at my previous job as a teacher. I found him talking with some of the volunteers for the conference and I stuck my nose into their conversation (easy to do considering the prominence of my nose). I found the right moment and expressed my thanks to Dave and we chatted for a while. 
 
-Eventually a few other speakers from the group joined us and it grew late for dinner. I mentioned to Dave that I needed to lay off the prosecco and find a more significant dinner. He agreed &ndash; a good sign. After a little more conversation I said I should start making my way toward the train so that I could eat before it got too late. I'm sure I sounded like I wasn't entirely excited about the 30-40 minute trip back to my neighborhood. I already learned they had a speaker bus. The speakers suggested I catch a ride back to town on the bus as there was plenty of room. They didn't have to ask me twice. (And the bus was practically empty anyway.)
+Eventually a few other speakers from the group joined us and it grew late for dinner. I mentioned to Dave that I needed to lay off the prosecco and find a more significant dinner. He agreed &ndash; a sign that maybe I could convince some of the speakers to grab dinner soon. After a little more conversation I said I should start making my way toward the train so that I could eat before it got too late. I'm sure I sounded like I wasn't entirely excited about the 30-40 minute trip back to my neighborhood. I already learned they had a speaker bus. The speakers suggested I catch a ride back to town on the bus as there was plenty of room. They didn't have to ask me twice. (And the bus was practically empty anyway.)
 
-We boarded the bus and rode back downtown to the speakers' hotel. After the speakers freshened up in their rooms, we took a walk through downtown toward my neighborhood (fortunately for me) looking for a place to have a drink and dinner and seeing a few tourist highlights (none of these speakers had been to Milan before). I spent the evening with Jared Ficklin, Jeroen Van Geel, Fabian Hemmert and one of the conference volunteers Matteo Mazzeri discussing sci-fi (okay, listening to Jared Ficklin talk about the sci-fi arc and his sequel to the movie Prometheus), Italian food and a variety of other things. It was a wonderful time.
+We boarded the bus and rode back downtown to the speakers' hotel. After the speakers freshened up in their rooms, we took a walk through downtown toward my neighborhood (fortunately for me) looking for a place to have a drink and dinner and seeing a few tourist highlights (none of these speakers had been to Milan before). I spent the evening with Jared Ficklin, Jeroen Van Geel, Fabian Hemmert and one of the conference volunteers Matteo Mazzeri discussing sci-fi (or rather, listening to Jared Ficklin talk about the sci-fi arc and his idea for a sequel to the movie Prometheus), Italian food and a variety of other things. It was a wonderful time.
 
 After we finished and I headed back to my apartment (right across the street, score!) I reflected on what a great day I'd had and felt as if the conference was already a success; already worth the money I'd spent to attend it.
 
 I have never worked for a business that sends me to industry conferences that weren't local. The times in my career when I've paid to send myself to distant conferences, they have been invaluable motivators for me and I've returned with gusto, ready to take on any challenge. I hope my story here helps you take charge and get yourself to events like these which can really help you grow and rejuvenate.
 
-And those people who you really admire and would like to talk to &ndash; just go do it. Bud in. It's quite likely you'll be rewarded.
+And those people who you really admire and would like to talk to &ndash; just go do it. Butt in. It's quite likely you'll be rewarded.
 
 I will definitely attend another foreign conference. I hope to see you there. 
 
