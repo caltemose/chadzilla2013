@@ -5,34 +5,37 @@ title: Internet of Things Experiments > Getting Started
 h1 Getting Started with the Tessel Microcontroller Board
 
 
-p
-  | I'm building a simple weather station to start off my exploration of the internet of things. It started with a 
+p.preface This is the first article in a series chronicling my projects exploring the Internet of Things and working with microcontrollers. This page focuses on getting started with the Tessel microcontroller.
+
+
+p 
+  | I've started building a simple weather station using a 
   a(href="http://tessel.io") Tessel microcontroller 
-  | and weather module I planned to use to collect weather data at home.
+  | and weather module. My initial motivation for this project came from an interest in using technology to improve my gardening efforts and an interest in learning to work with microcontrollers and electronics.
 
 
-p What started as a simple experiment building a weather station has turned into a more complex exploration of microcontrollers, small computers and electronics, small-scale big data and visualization methods. 
+h2 The Tessel
 
-h2 Let's Start with the Tessel
+p Tessel is a microcontroller board with built-in wifi and NodeJS. Its additional modules (temperature sensors, cameras, etc) are plug and play - no sodering required.
 
-p Tessel is a microcontroller board with built-in wifi and NodeJS and its additional modules (sensors, actuators, etc) are plug and play - no sodering required.
+p 
+  | Getting the Tessel hooked up to wifi and reading the temperature from the weather module was easy. However, the temperature readings were roughly 10&deg;F higher than what they should be. A quick examination of the <a href="https://forums.tessel.io/t/how-are-these-calibrated-before-shipping/332">Tessel forums</a> showed the reason for this was the heat transfer from the Tessel unit and that to resolve this I should use 
+  a(href="http://www.adafruit.com/products/760") jumper wires 
+  | to distance the weather module from the Tessel.
 
-p Getting the Tessel hooked up to wifi and reading the temperature from the weather module was easy. However, I noticed, as did plenty of other Tessel users, that the temperature was roughly 10&deg;F higher than what it should be. A quick examination of the Tessel forums showed that the reason for this was the heat transfer from the Tessel unit and that to resolve this I should use wires to distance the weather module from the Tessel.
+p Done. Now the Tessel reports temperature accurately:
 
-p Done:
-
-p ((( photo of tessel w/wiring )))
-
-p Now the Tessel reports temperature accurately.
+div
+  img(src="/assets/img/articles/tessel-with-jumpers.jpg" alt="Tessel with weather module attached via jumper wires")
 
 
-h3 Next Step: HTTP Communication
+h3 Weather Reporter Code and HTTP Communication
 
-p I initially tried to get the Tessel reporting weather data over HTTP using a variety of Node packages which could have simplified the code I'd need to write. Unfortunately, Node on the Tessel wasn't exactly Node on the desktop/server and I ran into compatibility issues with most of the packages I tried. I was reminded of some typical technology lessons right away: things don't always work as you expect them to and keep it simple.
+p I tried to get the Tessel reporting weather data over HTTP using a variety of Node packages which could have simplified the code I'd need to write. Node on the Tessel supports a subset of available packages at npm and I ran into compatibility issues with most of the packages I tried.
 
 p Ultimately I realized I needed to keep the code as basic as possible and just use the built-in <code>http</code> library.
 
-p Here's pseudocode, the majority of which is asynchronous functions with callbacks:
+p Here's the simple logic flow:
 
 ol
   li request and store sensor temp in &deg;F
@@ -43,27 +46,24 @@ ol
 
 p Here is the initial Javascript:
 
-
 <script src="https://gist.github.com/caltemose/016a1a6b76c5a640e03f.js"></script>
 
 
-p I tested the initial code with success while having the Tessel plugged into my laptop but as soon as I put the Tessel outside untethered I quickly discovered that the Tessel needed to be closer to the wifi router or it would have problems connecting. I had to rethink where I'd ultimately be mounting the Tessel outside so it doesn't struggle to maintain a connection. And as you can see in the code above, there is no code for handling wifi errors.
+p I tested the initial code with success while having the Tessel plugged into my laptop but as soon as I put the Tessel outside untethered I quickly discovered the Tessel needed to be closer to the wifi router or it would have problems connecting. Time to rethink where I'll ultimately be mounting the Tessel outside so it doesn't struggle to maintain a connection. And as you can see in the code above, there is no code for handling wifi connection or issues.
 
-p The next problems I had were slightly more complex. After a few hours of reporting the Tessel would start to send more signals than I was expecting (1 per minute). At times I'd see as many as 3 extra reports per minute.
+p The next problems I had were slightly more complex. After a few hours of reporting the Tessel would start to send more signals than I was expecting (1 per minute). At times I'd see as many as three extra reports per minute.
 
 p Eventually the Tessel would stop reporting - usually after 14-18 hours, sometimes sooner.
 
-p I realized that in addition to needing to handle wifi issues the code needed to store and properly clear timeouts. Rookie mistake.
+p In addition to needing to handle wifi issues the code needed to store and properly clear timeouts. Rookie mistake. And kicking off initialization after the climate sensor ready event is probably not wise if the wifi connection hasn't been established. 
 
-p Here's the current code which is functioning much better. There are no additional reports and the Tessel now will report for days uninterrupted.
+p After improving the code, there are no additional reports and the Tessel now will report for days uninterrupted.
 
-<script src="https://gist.github.com/caltemose/22616b91013ffa96efcc.js"></script>
-
-p I added a handler for the request error event:
+p I added a handler for request error events:
 
 <script src="https://gist.github.com/caltemose/004a01684c2d9f5c2e3e.js"></script>
 
-p And the <code>resetWifi()</code> function:
+p And a <code>resetWifi()</code> function:
 
 <script src="https://gist.github.com/caltemose/419339938b4d410fac92.js"></script>
 
@@ -71,14 +71,44 @@ p The timeout problem was resolved by storing the timeout as a variable and clea
 
 <script src="https://gist.github.com/caltemose/4209e55c1b84218f4efa.js"></script>
 
-p With the code changes above, and I replacement power supply of higher quality, the Tessel is now running fairly smoothly. Unfortunately I do still see the Tessel stop reporting after a few days and I'm still investigating that. For now I'm collecting a ton of weather data and the fact that there are gaps is okay. I'm still getting plenty of data to play with and learn from.
-
-
-h2 Initial Weather Reports
+p With the code changes above, and a replacement power supply of higher quality, the Tessel is now running fairly smoothly. Unfortunately I do still see the Tessel stop reporting at times which I am still investigating. For now I'm collecting a ton of weather data and the fact that there are gaps is okay. I'm still getting plenty of data to play with and learn from.
 
 p 
-  | With the Tessel reporting data every minute, it didn't take long before I needed a front-end for visualizing data and an api to handle data retrieval from MongoDB. 
-  a href="database-and-display" Read about that next.
+  | The  
+  a(href="https://github.com/caltemose/tessel-weather-reporter/blob/master/weather.js") existing code is here. 
+  | Or checkout the entire 
+  a(href="https://github.com/caltemose/tessel-weather-reporter") Github repository for this project.
+
+
+h2 Testing Locations
+
+p At this point things are running fairly smoothly - the code could probably use an improvement or two but the weather reports keep coming in reliably. During my testing I'd seen that without proper protection of the Tessel and attached weather sensor, the reported weather data in the mid-afternoon would be inaccurate thanks to direct sun on the hardware. 
+
+p My initial hope for the final location was to hide the Tessel in an outdoor light fixture after removing the bulbs. Unfortunately the location was just outside the Tessel's comfort range for Wifi stability. 
+
+p To resolve these two issues, heat and wifi stability, I stuck the unit in a clay pot in a reasonably protected corner of the porch, within the wifi comfort zone:
+
+div
+  img(src="/assets/img/articles/tessel-clay-pot.jpg" alt="Tessel Weather Station in Clay Pot")
+
+
+h2 Bugs, Concerns and Moving Forward
+
+p With the Tessel reliably reporting data now, my current focus is on the database and the data visualizations. As the Tessel continues to report data, I will be paying attention to a variety of concerns:
+
+p The Tessel still seems to crap out after roughly a week of reporting data. Why? 
+
+p How will the unit perform once the excessively humid and hot summer arrives?
+
+p Speaking of summer, how can I properly protect the unit from our crazy summer storms where rain will blow sideways? A screen over the top will keep birds out but how can I keep the Tessel safe without altering how the sensors report data? 
+
+
+h2 Data and Visualizations
+
+p 
+  | With the Tessel reporting data reliably, it's now time to focus on building a front-end for visualizing data and an API to handle data retrieval from MongoDB. 
+  a(href="database-and-display") Read about that next 
+  | to see how this project progresses with a little NodeJS, MongoDB and Raspberry Pi. 
 
 
 

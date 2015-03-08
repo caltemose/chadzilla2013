@@ -76,14 +76,14 @@ Default Tag Specs
 
 */
 h1 {
-  font-size: 1.8em;
+  font-size: 1.75em;
   font-family: $titleFont;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 105%;
 }
 
 h2 {
-  margin-top: 1.3em;
+  margin-top: 1.25em;
   font-weight: normal;
 }
 
@@ -178,7 +178,7 @@ code {
   background: lighten($bgColor, 10); //$codeBgColor;
   color: #1E85FA; //$codeFontColor;
   font-family: 'Monaco', 'Lucida Console', 'Andale Mono', FreeMono, 'Osaka Monospaced', Courier, monospace;
-  font-size: 0.9em;
+  font-size: 0.8em;
   border-radius: 0.3em 0 0.3em 0;
 }
 
@@ -197,5 +197,19 @@ pre > code {
 
 pre .content {
   color: $codeContentColor;
+}
+
+article > img {
+  display: block;
+  margin: 1.5em 0;
+}
+
+
+.preface {
+  margin: 1em 0;
+  padding: 1em;
+  font-size: 0.9em;
+  font-style: italic;
+  background: #ddd;
 }
 
